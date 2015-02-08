@@ -1,0 +1,12 @@
+---
+layout: post
+title: "* and ** in ruby methods and more. "
+date: '2014-08-14T01:06:00.002-07:00'
+author: lokesh jain
+tags: 
+modified_time: '2014-08-14T01:17:01.803-07:00'
+blogger_id: tag:blogger.com,1999:blog-3986102045809195254.post-4643307688683825081
+blogger_orig_url: http://phptricksand.blogspot.com/2014/08/and-in-ruby-methods-and-more.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on"><pre class="code">In the ruby you can use ** or hash in the methods. Here is the some examples plz follow this with me.</pre><pre class="code"></pre><pre class="code"></pre><pre class="Ruby" name="code">[37] pry(main)&gt; def test2(data={})<br />[37] pry(main)*   ap data<br />[37] pry(main)* end  <br /></pre><pre class="code">Here you can put any number of data using symbol key and values like we used for creating hash and this will be captured by element.<br /><br />[40] pry(main)&gt; test2(hello:'data',say:'data')<br />{<br />    :hello =&gt; "data",<br />      :say =&gt; "data"<br />}<br />=&gt; nil<br /></pre><pre class="code"></pre><pre class="code">Note: Here we have used gem 'awesome_print' for the beautiful print.</pre><pre class="code"></pre><pre class="code">There is another way of writing the same function.</pre><pre class="Ruby" name="code">[28] pry(main)&gt; def test(**data)<br />[28] pry(main)*   print data<br />[28] pry(main)* end  <br /></pre><div>:<br /><br /></div></div>
