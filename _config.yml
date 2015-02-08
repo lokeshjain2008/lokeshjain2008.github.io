@@ -9,5 +9,9 @@ url: "http://phptricksand.blogspot.in/" # the base hostname & protocol for your 
 twitter_username: lokeshjain2008
 github_username:  lokeshjain2008
 
+
+paginate: 10
+highlighter: true
+
 # Build settings
 markdown: kramdown
