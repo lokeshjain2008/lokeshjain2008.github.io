@@ -10,8 +10,14 @@ twitter_username: lokeshjain2008
 github_username:  lokeshjain2008
 
 
-paginate: 10
-highlighter: true
+paginate: 5
+# highlighter: true
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet #karmdown
+
+
+
+#Note markdown was 'kramdown', it supported markdown.
+#Now changed to 'redcarpet', it supports all the markdown fro github
+
