@@ -1,2 +1,5 @@
 _site
 .sass-cache
+Jekyll-ruby.sublime-project
+Jekyll-ruby.sublime-workspace
+Gemfile.lock

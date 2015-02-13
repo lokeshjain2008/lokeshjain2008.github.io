@@ -9,6 +9,8 @@ url: "http://phptricksand.blogspot.in/" # the base hostname & protocol for your 
 twitter_username: lokeshjain2008
 github_username:  lokeshjain2008
 
+disqus_shortname: lokeshjain2008
+
 
 paginate: 5
 # highlighter: true

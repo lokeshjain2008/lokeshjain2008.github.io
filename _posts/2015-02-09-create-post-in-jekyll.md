@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 ---
 
 #How to create post in Jekyll 
