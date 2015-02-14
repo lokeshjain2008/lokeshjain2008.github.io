@@ -13,10 +13,15 @@ layout: default
 	{% endif %}
 
 	<div class="post-content">{{ content }}</div>
-
+	<!-- Added the sharing	 -->
+	<!-- Go to www.addthis.com/dashboard to customize your tools -->
+	<div class="addthis_sharing_toolbox_container">
+		<div class="addthis_sharing_toolbox"></div>
+	</div>
 	<p class="meta">Posted on <span class="postdate">{{ page.date | date: "%b %d, %Y" }}</span></p>
 	
 	{% if page.comments  %}
+	
 	<div id="disqus_thread"></div>
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -31,4 +36,5 @@ layout: default
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     {% endif %}
+
 </article>
