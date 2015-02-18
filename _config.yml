@@ -1,7 +1,8 @@
 # Site settings
 title: Web developer diary
 email: lokeshjain2008@gmail.com
-description: > tutorials for the ruby, ruby on rails, ror and some web technologies that include javascript.
+description: > # comment
+ tutorials for the ruby, ruby on rails, ror and some web technologies that include javascript.
  web technologies that includes html, html5, jQuery, PHP, Python, Bootstrap css framework GAE etc.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://phptricksand.blogspot.in/" # the base hostname & protocol for your site
@@ -9,4 +10,6 @@ twitter_username: lokeshjain2008
 github_username:  lokeshjain2008
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+
+disqus_shortname: lokeshjain2008
