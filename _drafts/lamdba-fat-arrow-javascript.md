@@ -18,3 +18,13 @@ hello = ->(a,b)
 hello = ->(a,b)
 	a+b
 {%  endhighlight %}
+
+#### for the git, for the project 'Jekyll blog'
+i made huge change on the files. it commited and i am sure that i want to use it for now.
+ON the other machine i had to make a pull request "There will be conflicts on the branch"
+`git pull -X theirs`
+but i did pull now there were some coflicts.
+
+How do i solve it now. 
+git checkout --theirs/--ours <fileName>
+this was a life saver for me.r
