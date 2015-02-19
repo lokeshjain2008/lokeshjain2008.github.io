@@ -18,3 +18,9 @@ hello = ->(a,b)
 hello = ->(a,b)
 	a+b
 {%  endhighlight %}
+
+
+links to complete the tutorials
+
+http://es6rocks.com/2014/10/arrow-functions-and-their-scope/
+http://robots.thoughtbot.com/replace-coffeescript-with-es6
