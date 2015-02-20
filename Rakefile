@@ -30,10 +30,15 @@ end
 
 # send data to the rake bro.
 desc "Will create post file in the directory.."
-task :create_post, :name  do |t,args|
-p t 
-p args
+=begin 
+For the rake paramters it was messing with the ZSH and there was a solution 
+alias rake='noglob rake'
 
+=end
+task :create_post, :name  do |t,args|
+
+ time = Time.new	
+ touch "_posts/#{time.year}-#{time.month}-#{time.day}#-{args[:name]}.md"
 end
 
 task :tests, [:arg1, :arg2] do |t, args|
