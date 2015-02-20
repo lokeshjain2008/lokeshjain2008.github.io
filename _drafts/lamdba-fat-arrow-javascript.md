@@ -33,3 +33,4 @@ but i did pull now there were some coflicts.
 How do i solve it now. 
 git checkout --theirs/--ours <fileName>
 this was a life saver for me.r
+[more config to disqus](https://help.disqus.com/customer/portal/articles/472098-javascript-configuration-variables	)

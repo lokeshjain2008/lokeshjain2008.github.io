@@ -25,3 +25,4 @@ If you have problem with the parallel bundle than fallback to the default
 `vim ~/.bundle/config`
 [Ruby 2.2 new methods](http://www.sitepoint.com/new-methods-ruby-2-2/)
 [Image processing in ruy](http://www.sitepoint.com/image-processing-rails/)
+[rake tips](https://github.com/ruby/rake)

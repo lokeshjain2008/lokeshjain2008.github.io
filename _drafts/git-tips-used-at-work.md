@@ -31,3 +31,4 @@ Trick how may files `modified`
 
 git status | grep modified|  wc
 
+[git tricks](http://rypress.com/tutorials/git/tips-and-tricks)
