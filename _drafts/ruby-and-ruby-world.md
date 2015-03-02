@@ -26,3 +26,12 @@ If you have problem with the parallel bundle than fallback to the default
 [Ruby 2.2 new methods](http://www.sitepoint.com/new-methods-ruby-2-2/)
 [Image processing in ruy](http://www.sitepoint.com/image-processing-rails/)
 [rake tips](https://github.com/ruby/rake)
+[parallelism in ruby](http://www.toptal.com/ruby/ruby-concurrency-and-parallelism-a-practical-primer)
+###Testing (spec / cucumber / )
+[mocking/stubing/double](http://blog.codeship.com/rspec-stub-and-mock/)
+[Fast testing](http://blog.codeship.com/faster-rails-tests/)-http://www.sitepoint.com/ruby/
+
+##Rails logs
+-http://blog.codeship.com/
+-http://www.sitepoint.com/ruby/
+

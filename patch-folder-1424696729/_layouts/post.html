@@ -7,6 +7,7 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     <p>
+      <span> {% icon fa-camera-retro %} </span>
       {% for tag in page.tags %}
           <span class="tag_element">{{ tag }}</span>
       {% endfor %}

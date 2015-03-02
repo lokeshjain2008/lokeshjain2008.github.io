@@ -8,6 +8,7 @@ categories: [git,tutorials]
 `git reset --hard <version-no>`
 
 links for the helps
+[git tags and categories] (http://www.minddust.com/post/tags-and-categories-on-github-pages/)
 
 [great link](http://stackoverflow.com/questions/4114095/revert-to-a-previous-git-commit)
 

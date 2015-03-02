@@ -5,7 +5,6 @@ Object serialization in ruby and
 3. json
 
 =end
-require 'yaml'
 
 class Test
 	attr_accessor :name, :age
@@ -29,15 +28,10 @@ data = Marshal.dump(a)
 
 p data # => "\x04\bo:\tTest\a:\n@nameI\"\vlokesh\x06:\x06EF:\t@agei\x1E"
 
-p Marshal.load(data) # => #<Test:0x007fb539969380 @name="lokesh", @age=25>
+p Marshal.load(data) # => #<Test:0x007f7fe98b3b28 @name="lokesh", @age=25>
 
-p a # => #<Test:0x007fb539969f60 @name="lokesh", @age=25>
+p a # => #<Test:0x007f7fe98a0118 @name="lokesh", @age=25>
 
-## yaml formatting
-
-data =  File.open("temp_yaml_dump.txt", "w") { |file| YAML.dump(a, file) }
-
-p File.open("temp_yaml_dump.txt") { |file| YAML.load(file) } # => #<Test:0x007fb53993ec98 @name="lokesh", @age=25>
 
 ########### SORTING============
 
@@ -85,9 +79,8 @@ people.sort_by { |k, v| v[:age] }.to_h  # => {:zade=>{:name=>"Joan", :age=>18}, 
 
 # >> {:fred=>{:name=>"Fred", :age=>23}, :jone=>{:name=>"Pete", :age=>54}, :zade=>{:name=>"Joan", :age=>18}}
 # >> "\x04\bo:\tTest\a:\n@nameI\"\vlokesh\x06:\x06EF:\t@agei\x1E"
-# >> #<Test:0x007fb539969380 @name="lokesh", @age=25>
-# >> #<Test:0x007fb539969f60 @name="lokesh", @age=25>
-# >> #<Test:0x007fb53993ec98 @name="lokesh", @age=25>
+# >> #<Test:0x007f7fe98b3b28 @name="lokesh", @age=25>
+# >> #<Test:0x007f7fe98a0118 @name="lokesh", @age=25>
 # >> ["a", "aaaa", "b", "bb", "bbb", "bbbb", "c", "cc"]
 # >> ["cc", "c", "bbbb", "bbb", "bb", "b", "aaaa", "a"]
 # >> ["cc", "c", "bbbb", "bbb", "bb", "b", "aaaa", "a"]

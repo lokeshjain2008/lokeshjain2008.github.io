@@ -43,9 +43,9 @@ task :create_post, :name  do |t,args|
  content = """
 ---
 layout: post
-date: %Q{#{time.asctime}}
+date: #{time.asctime}
 comments: true
-title: #{args[:name].gsub(/[-,_]/,' ')}
+title: #{args[:name]}
 ---
  """
  File.write(file_name,content)
