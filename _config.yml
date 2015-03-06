@@ -1,38 +1,15 @@
 # Site settings
 title: Web developer diary
 email: lokeshjain2008@gmail.com
-description: > # This is comment
+description: > # comment
  tutorials for the ruby, ruby on rails, ror and some web technologies that include javascript.
  web technologies that includes html, html5, jQuery, PHP, Python, Bootstrap css framework GAE etc.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://lokeshjain2008.github.io/" # the base hostname & protocol for your site
+url: "http://phptricksand.blogspot.in/" # the base hostname & protocol for your site
 twitter_username: lokeshjain2008
 github_username:  lokeshjain2008
 
-disqus_shortname: lokeshjain2008
-
-paginate: 5
-highlighter: true
-
 # Build settings
-markdown: redcarpet #karmdown
+markdown: redcarpet
 
-pligins:
-  -sitemap_generator
-
-
-sitemap:
-    file: "/sitemap.xml"
-    exclude:
-        - "/atom.xml"
-        - "/feed.xml"
-        - "/feed/index.xml"
-    include_posts:
-        - "/index.html"
-    change_frequency_name: "change_frequency"
-    priority_name: "priority"
-
-
-#Note markdown was 'kramdown', it supported markdown.
-#Now changed to 'redcarpet', it supports all the markdown fro github
-
+disqus_shortname: lokeshjain2008
