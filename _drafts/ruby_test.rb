@@ -29,15 +29,15 @@ data = Marshal.dump(a)
 
 p data # => "\x04\bo:\tTest\a:\n@nameI\"\vlokesh\x06:\x06EF:\t@agei\x1E"
 
-p Marshal.load(data) # => #<Test:0x007fb539969380 @name="lokesh", @age=25>
+p Marshal.load(data) # => #<Test:0x007fac591c2d18 @name="lokesh", @age=25>
 
-p a # => #<Test:0x007fb539969f60 @name="lokesh", @age=25>
+p a # => #<Test:0x007fac591c3678 @name="lokesh", @age=25>
 
 ## yaml formatting
 
 data =  File.open("temp_yaml_dump.txt", "w") { |file| YAML.dump(a, file) }
 
-p File.open("temp_yaml_dump.txt") { |file| YAML.load(file) } # => #<Test:0x007fb53993ec98 @name="lokesh", @age=25>
+p File.open("temp_yaml_dump.txt") { |file| YAML.load(file) } # => #<Test:0x007fac591b9290 @name="lokesh", @age=25>
 
 ########### SORTING============
 
@@ -83,11 +83,54 @@ p people.sort.to_h # => {:fred=>{:name=>"Fred", :age=>23}, :jone=>{:name=>"Pete"
 
 people.sort_by { |k, v| v[:age] }.to_h  # => {:zade=>{:name=>"Joan", :age=>18}, :fred=>{:name=>"Fred", :age=>23}, :jone=>{:name=>"Pete", :age=>54}}
 
+
+## Delegations in ruby 
+
+
+# EQUALITY IN RUBY
+
+# 1. =~ Takes regualr expression for the checking in the value
+"this the test string" =~ /string/ # => 14
+
+
+"this the test string" =~ /(\s\w+)/ # => 4
+#Note above will not capture the vlaue
+
+# 2. eql? and ==
+
+"lokesh" == "Lokesh" # => false
+
+a = [1,2,3]
+b = a
+# will pass all the checking
+a == b # => true
+a.eql? b # => true
+a.equal? b # => true
+
+a = b.dup
+# Now. equal? will fail
+a ==b # => true
+a.eql? b # => true
+a.equal?b # => false
+
+a,b = 1,1.0
+# Strict check using eql?
+a==b # => true
+a.eql?(b) # => false
+
+# if you are seeing SSL error
+ OpenSSL::SSL::VERIFY_NONE.
+
+
+
+
+
+
 # >> {:fred=>{:name=>"Fred", :age=>23}, :jone=>{:name=>"Pete", :age=>54}, :zade=>{:name=>"Joan", :age=>18}}
 # >> "\x04\bo:\tTest\a:\n@nameI\"\vlokesh\x06:\x06EF:\t@agei\x1E"
-# >> #<Test:0x007fb539969380 @name="lokesh", @age=25>
-# >> #<Test:0x007fb539969f60 @name="lokesh", @age=25>
-# >> #<Test:0x007fb53993ec98 @name="lokesh", @age=25>
+# >> #<Test:0x007fac591c2d18 @name="lokesh", @age=25>
+# >> #<Test:0x007fac591c3678 @name="lokesh", @age=25>
+# >> #<Test:0x007fac591b9290 @name="lokesh", @age=25>
 # >> ["a", "aaaa", "b", "bb", "bbb", "bbbb", "c", "cc"]
 # >> ["cc", "c", "bbbb", "bbb", "bb", "b", "aaaa", "a"]
 # >> ["cc", "c", "bbbb", "bbb", "bb", "b", "aaaa", "a"]

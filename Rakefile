@@ -38,7 +38,7 @@ alias rake='noglob rake'
 task :create_post, :name  do |t,args|
 
  time = Time.new	
- file_name =  "_posts/#{time.year}-#{time.month}-#{time.day}-#{args[:name]}.md"
+ file_name =  "_posts/#{time.year}-#{time.month.to_s.rjust(2,'0')}-#{time.day.to_s.rjust(2,'0')}-#{args[:name]}.md"
  touch file_name
  content = """
 ---
