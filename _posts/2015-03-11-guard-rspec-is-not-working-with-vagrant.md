@@ -6,7 +6,7 @@ title: "guard rspec is not working with vagrant"
 tags: guard rspec vagrant
 ---
 
- #Gurad is not detecting any file chnage over vagrant files using shared nfs folders.
+##Gurad is not detecting any file chnage over vagrant files using shared nfs folders.
  
  I recently found out interesting issue with `guard-rspec`. 
 
@@ -14,7 +14,7 @@ tags: guard rspec vagrant
 
  which was not working in your vagrant shared `nfs`. 
 
- ###Solution
+###Solution
 Tell guard to fallback to polling for file changes. this is will be slow and will be pain if the project grows.
 
 ```ruby

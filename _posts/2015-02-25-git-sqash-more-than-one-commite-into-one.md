@@ -5,7 +5,7 @@ comments: true
 title: "git squash more than one commit into one and other tricks"
 tags: [git, github, git tricks]
 ---
- #Git and some daily tasks for git.
+##Git and some daily tasks for git.
 
 Git is great and but still there is a lot to learn for big projects to complete.
 
@@ -22,8 +22,7 @@ git branch -v #verbose branch listing
 git branch -a #all branch remote+local
 git branch -r #all remote branch
 ```
-2.
-### Convert commits into one commit follow the process
+2. Convert commits into one commit follow the process
 ---
 
 ```bash
