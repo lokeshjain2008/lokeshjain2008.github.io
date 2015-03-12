@@ -5,7 +5,9 @@ comments: true
 title: "guard rspec is not working with vagrant"
 tags: guard rspec vagrant
 ---
- # Gurad is not detecting any file chnage over vagrant files using shared nfs folders.
+
+ #Gurad is not detecting any file chnage over vagrant files using shared nfs folders.
+ 
  I recently found out interesting issue with `guard-rspec`. 
 
  The listener detection is quite simple, it just checks the OS and if the OS specific adapter can be loaded. Since `Guard` comes with the adapter bundled, it will always chose `rb-inotify` as adapter on Linux.
