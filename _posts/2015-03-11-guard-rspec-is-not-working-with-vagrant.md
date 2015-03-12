@@ -1,6 +1,6 @@
 ---
 layout: post
-date: %Q{Wed Mar 11 19:03:13 2015}
+date: "Wed Mar 11 19:03:13 2015"
 comments: true
 title: "guard rspec is not working with vagrant"
 tags: guard rspec vagrant
