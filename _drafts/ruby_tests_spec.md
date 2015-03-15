@@ -1,32 +1,52 @@
-=begin
-
-function info(){}
-
-info.send =  function(){
-  
-}
-
-
-=end
+---
+layout: post
+comments: true
+---
 
 
 #Guide to ruby testing 
-=begin
+
 Learning the testing first is a real ruby way.
 Here we will learn some basic things to test our ruby.
-=end
 
-# 1. Testing the validations and callbacks in the ActiveRecord 
-# 1.1 By the old way to do the test the callbacks are .
-# before_save :check_values
-it 'should test before_save callbacks' do 
-  is_expected.to receive(:check_values)
-  subject.save
-end
+Tricks for the debugging
 
-# Or use 'shoulda-matcher for this'
-# `shoulda-callback-matchers` gem will do the heavy lifting for us
-it{is_expected.to callback(:check_values).before(:save)}
+1.
+
+```ruby
+
+assigns(:user)
+controller.params
+response.body
+```
+
+
+
+1. Testing the validations and callbacks in the ActiveRecord 
+  1. By the old way to do the test the callbacks are .
+    before_save :check_values
+  
+```ruby
+
+  it 'should test before_save callbacks' do 
+    is_expected.to receive(:check_values)
+    subject.save
+  end
+
+```
+  2. Or use 'shoulda-matcher for this'
+    `shoulda-callback-matchers` gem will do the heavy lifting for us
+      
+    
+```ruby
+
+  it{is_expected.to callback(:check_values).before(:save)}
+
+```
+
+2. creating stubs and mocks in rspec for the testing.
+
+```ruby
 
 # require 'rspec'
 # require 'respc-core'

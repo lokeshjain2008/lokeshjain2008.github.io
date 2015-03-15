@@ -45,6 +45,16 @@ solution
 ```bash
 git config --global core.editor "subl -n -w"
 ```
+### Git: if removed file using `git rm`
+Then 
+If you already commited changes, then:
 
+```bash
+git reset (--hard) HEAD~1
+```
+If not then:
 
-
+```bash
+git reset
+git checkout -- $(git ls-files -d)
+```

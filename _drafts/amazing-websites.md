@@ -5,6 +5,7 @@ List of amazing websites for developers
 -[gitter](https://gitter.im)
 -[ElasticBox](https://elasticbox.com/)
 -[ChefIO](https://www.chef.io/) See video how it works. That is enough for convince me to use it.
+-[ParallelTest](https://github.com/grosser/parallel_tests)
 
 
 # below is the shit bro...

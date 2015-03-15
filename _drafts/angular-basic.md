@@ -5,6 +5,7 @@ comments: true
 ---
 
 #Learning the angular for the good reasons
+[Angular best practices](https://www.youtube.com/watch?v=ZhfUv0spHCY)
 
 ```javascript
 $rootScope and scope in angular
