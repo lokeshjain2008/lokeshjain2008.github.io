@@ -5,7 +5,7 @@ comments: true
 title: "git squash more than one commit into one and other tricks"
 tags: [git, github, git tricks]
 ---
- #Git and some daily tasks for git.
+##Git and some daily tasks for git.
 
 Git is great and but still there is a lot to learn for big projects to complete.
 
@@ -22,8 +22,7 @@ git branch -v #verbose branch listing
 git branch -a #all branch remote+local
 git branch -r #all remote branch
 ```
-2.
-### Convert commits into one commit follow the process
+2. Convert commits into one commit follow the process
 ---
 
 ```bash
@@ -46,6 +45,16 @@ solution
 ```bash
 git config --global core.editor "subl -n -w"
 ```
+### Git: if removed file using `git rm`
+Then 
+If you already commited changes, then:
 
+```bash
+git reset (--hard) HEAD~1
+```
+If not then:
 
-
+```bash
+git reset
+git checkout -- $(git ls-files -d)
+```

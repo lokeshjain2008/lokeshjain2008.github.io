@@ -1,3 +1,0 @@
---- !ruby/object:Test
-name: lokesh
-age: 25

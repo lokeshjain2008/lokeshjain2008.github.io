@@ -1,0 +1,1241 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"insta",
+				"instance_double"
+			],
+			[
+				"doubl",
+				"doubler"
+			],
+			[
+				"full",
+				"full_name〔variable〕"
+			],
+			[
+				"rand",
+				"random_name〔function〕"
+			],
+			[
+				"first",
+				"first_name"
+			],
+			[
+				"templa",
+				"templateUrl"
+			],
+			[
+				"pre",
+				"preData"
+			],
+			[
+				"route",
+				"routeParams"
+			],
+			[
+				"add",
+				"add_patch_folder"
+			],
+			[
+				"all",
+				"all_files_in_folder"
+			],
+			[
+				"ne",
+				"need_assistance"
+			],
+			[
+				"files",
+				"files_names_trimmed"
+			],
+			[
+				"get",
+				"get_modified_files〔function〕"
+			],
+			[
+				"file",
+				"file_path〔variable〕"
+			],
+			[
+				"produc",
+				"products"
+			],
+			[
+				"pro",
+				"products"
+			],
+			[
+				"product_falm",
+				"product_family"
+			],
+			[
+				"par",
+				"parallel"
+			],
+			[
+				"sh",
+				"ssh"
+			],
+			[
+				"Y",
+				"Yl-	YAML.load(file)"
+			],
+			[
+				"alis",
+				"alias"
+			],
+			[
+				"path",
+				"patch"
+			],
+			[
+				"tem",
+				"temp_file〔variable〕"
+			],
+			[
+				"to",
+				"to_i〔function〕"
+			],
+			[
+				"sor",
+				"sort_by〔function〕"
+			],
+			[
+				"arra",
+				"array_to_sort"
+			],
+			[
+				"array",
+				"array_to_sort〔variable〕"
+			],
+			[
+				"sort",
+				"sort〔function〕"
+			],
+			[
+				"arary",
+				"array_to_sort"
+			],
+			[
+				"pu",
+				"plugin"
+			],
+			[
+				"plug",
+				"plugins"
+			],
+			[
+				"_",
+				"_plugins"
+			],
+			[
+				"arg",
+				"args"
+			],
+			[
+				"tas",
+				"task"
+			],
+			[
+				"taks",
+				"taks_pre"
+			],
+			[
+				"task",
+				"task_name"
+			],
+			[
+				"d",
+				"det	detect { |e| .. }"
+			],
+			[
+				"age",
+				"age"
+			],
+			[
+				"exam",
+				"example_file"
+			],
+			[
+				"string",
+				"string_changer〔variable〕"
+			],
+			[
+				"begin",
+				"begin〔function〕"
+			],
+			[
+				"alisa",
+				"aliases"
+			],
+			[
+				"dis",
+				"disqus_shortname〔variable〕"
+			],
+			[
+				"kar",
+				"kramdown"
+			],
+			[
+				"fi",
+				"fucntionality"
+			],
+			[
+				"var",
+				"var_dump〔function〕"
+			],
+			[
+				"Te",
+				"TestAccessor"
+			],
+			[
+				"T",
+				"TestAccessor"
+			],
+			[
+				"Test",
+				"TestAccessor〔class〕"
+			],
+			[
+				"cla",
+				"cla	class .. end"
+			],
+			[
+				"b",
+				"begin	begin … rescue … end"
+			],
+			[
+				"P",
+				"Publishers"
+			],
+			[
+				"filter",
+				"filtersInfo"
+			],
+			[
+				"base",
+				"baseUrl"
+			],
+			[
+				"reportpa",
+				"reportPages"
+			],
+			[
+				"repo",
+				"reportArr"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"def",
+				"def	def … end"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Lokesh/Documents/learning/rails_test/spec/rails_helper.rb",
+			"settings":
+			{
+				"buffer_size": 2328,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Lokesh/Documents/learning/rails_test/spec/controllers/learning_tips_spec.rb",
+			"settings":
+			{
+				"buffer_size": 998,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"mak",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"ruby",
+				"RubyTest: Run All Ruby Tests"
+			],
+			[
+				"exte",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"m ark",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"packe",
+				"Package Control: Remove Package"
+			],
+			[
+				"insatll",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"spell",
+				"Google Spell Check"
+			],
+			[
+				"spel",
+				"Google Spell Check"
+			],
+			[
+				"gist",
+				"Gist: Create Public Gist"
+			],
+			[
+				"markt",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"ru",
+				"RubyTest: Run Single Test"
+			],
+			[
+				"makr",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"scss",
+				"Set Syntax: CSS"
+			],
+			[
+				"mad",
+				"Set Syntax: Markdown"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"coff",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"coffe",
+				"Coffee: Goto Definition"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"ftp",
+				"SFTP: Show Panel"
+			],
+			[
+				"s",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sftp",
+				"SFTP: Show Panel"
+			],
+			[
+				"sft",
+				"SFTP: Browse Server…"
+			],
+			[
+				"ftop",
+				"SFTP: Show Panel"
+			],
+			[
+				"git",
+				"Git: Init"
+			],
+			[
+				"",
+				"BeautifyRuby"
+			],
+			[
+				"insta",
+				"Package Control: Advanced Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Lokesh/Documents/learning/rails_test",
+		"/Users/Lokesh/Documents/learning/rails_test/spec",
+		"/Users/Lokesh/Documents/learning/rails_test/spec/controllers",
+		"/Users/Lokesh/Documents/learning/rails_test/spec/requests",
+		"/Users/Lokesh/Documents/learning/rails_test/spec/routing",
+		"/Users/Lokesh/Documents/learning/rails_test/tmp"
+	],
+	"file_history":
+	[
+		"/Users/Lokesh/Documents/learning/rails_test/.rspec",
+		"/Users/Lokesh/Documents/learning/rails_test/Gemfile",
+		"/Users/Lokesh/create_patch.rb",
+		"/Users/Lokesh/.bash_profile",
+		"/Users/Lokesh/.zshrc",
+		"/var/folders/n_/h8kr78b90399t2vbw_5pjsyw0000gq/T/rsub-zvngrx/CustomReportAction.php",
+		"/Users/Lokesh/adportal/web/adpapp/create_patch.rb",
+		"/Users/Lokesh/adportal/web/adpapp/tests/TestConfiguration.php",
+		"/Users/Lokesh/.zshrc.pre-oh-my-zsh",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_drafts/example_file",
+		"/Users/Lokesh/Library/Application Support/Sublime Text 3/Packages/Alignment/Default (OSX).sublime-keymap",
+		"/Users/Lokesh/Library/Application Support/Sublime Text 3/Packages/User/Base File.sublime-settings",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/Gemfile",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/assets/css/font-awesome.css",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_includes/head.html",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/Rakefile",
+		"/Users/Lokesh/Library/Application Support/Sublime Text 3/Packages/rsub/rsub.sublime-settings",
+		"/Users/Lokesh/other.sh",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/temp_test",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/patch.rb",
+		"/Users/Lokesh/Library/Application Support/Sublime Text 3/Packages/User/Gist.sublime-settings",
+		"/Users/Lokesh/Library/Application Support/Sublime Text 3/Packages/Gist/Gist.sublime-settings",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/temp_1424683484.txt",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/2015-02-23",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/14:51:54",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/lokesh",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_site/jekyll/update/2015/02/09/welcome-to-jekyll.html",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_drafts/jekyll-blog.md",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_plugins/tag-gen.rb",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_layouts/tag_index.html",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_plugins/ext.rb",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_posts/2015-02-08-welcome-to-jekyll.markdown",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_plugins/tag_gen.rb",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_site/index.html",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/.gitignore",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_config.yml",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/about.md",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/feed.xml",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/css/main.scss",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_layouts/post.html",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_sass/_layout.scss",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/index.html",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_layouts/default.html",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_drafts/git-tips-used-at-work.md",
+		"/Users/Lokesh/Desktop/chrome.manifest",
+		"/Users/Lokesh/Desktop/firefox.zip",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_drafts/lamdba-fat-arrow-javascript.md",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_site/2014/02/03/php-how-to-get-sunday-and-saturday.html",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_posts/2015-02-20-hello-world.md",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_site/title/index.html",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_posts/2015-02-20-hello_world.md",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_drafts/ruby_tests_spec.rb",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_drafts/ruby_test.rb",
+		"/Users/Lokesh/Library/Application Support/Sublime Text 3/Packages/User/RubyTest.sublime-settings",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/Gemfile.lock",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_drafts/ruby-and-ruby-world.md",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_site/2013/07/26/a-whole-bunch-of-amazing-stuff-pseudo.html",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_layouts/tag_page.html",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_site/welcome-to-jekyll/index.html",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_site/how-to-make-tool-tip-arrow-or-dialog/index.html",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_site/2014/12/16/javascript-context-tutorial-what-makes.html",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_site/2014/07/24/adding-counter-cache-for-fun-and-profit.html",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_posts/2015-01-02-how-to-get-good-working-terminal.html",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_plugins/font_awesome.rb",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/2015-2-20hello_world.md",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_posts/2015-2-20#-{args[:name]}.md",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/example_file",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_site/2014/10/07/you-do-not-need-to-write-javascript-for.html",
+		"/Users/Lokesh/Library/Application Support/Sublime Text 3/Packages/RubyTest/RubyTest.sublime-settings",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_site/2013/08/24/php-curl-and-json-encode-and-decode.html",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_site/2013/12/03/create-simple-rest-web-service-with.html",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_site/2014/07/12/create-devise-user-from-ruby-console.html",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_site/2015/01/29/caching-your-github-password-in-git.html",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_site/2013/11/14/cookie-and-headers-in-gae-some-example.html",
+		"/Users/Lokesh/Desktop/change-locale/manifest.json",
+		"/Users/Lokesh/.zsh_history",
+		"/Users/Lokesh/Desktop/change-locale/README.md",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_includes/footer.html",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_site/2013/09/24/fill-form-using-python.html",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_site/2013/06/17/javascript-class-and-object-know-class.html",
+		"/Users/Lokesh/Documents/Jekyll_blog/one_blog/_drafts/create-post-in-jekyll.markdown",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/library/ZFExt/Paginator/Adapter/Report.php",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/www/js/dojo/rlwidget/rlNavigation.js",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/www/styles/page/noaccount.css",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/application/views/scripts/report/keyword/breakdowntable.phtml",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/.idea/vcs.xml",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/application/languages/de/views.mo",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/www/js/dojo/rlwidget/tests/test_rlAPFilter.html",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/www/js/dojo/dojox/data/restListener.js",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/application/models/Report.php",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/www/js/dojo/dijit/hccss.js",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/www/js/dojo/dojo/_base/_loader/hostenv_rhino.js",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/application/views/helpers/RlMessagesReplyIds.php",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/application/views/layouts/common/dojo.phtml",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/application/views/layouts/cobrands/0/modules/rlNavigation.phtml",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/application/views/scripts/navigation/apNav.phtml",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/www/js/dojo/rlwidget/rlNoAccount.js",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/application/controllers/KeywordausController.php",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/application/controllers/KeyworddetailController.php",
+		"/Users/Lokesh/Documents/learning/ruby_lang_tips.rb",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/www/js/dojo/rlwidget/report/rlReportDisplay.js",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/www/js/dojo/dojox/grid/enhanced/templates/FilterBar.html",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/www/js/dojo/dojox/gfx/demos/filters.html",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/application/views/scripts/messages/advancedfilter.phtml",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/application/views/scripts/account/advfilter.phtml",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/www/js/dojo/rlwidget/rlFilter.js",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/application/Form/Report/LeadActivityAdvancedFilter.php",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/application/Form/Account/Filter.php",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/www/js/dojo/dojox/form/FileInput.js",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/application/controllers/FaqController.php",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/application/views/scripts/report/keyword/index.phtml",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/www/js/dojo/dojo/keys.js",
+		"/Users/Lokesh/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/www/js/dojo/dojox/analytics/logger/dojoxAnalytics.php",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/www/js/dojo/dojo/dojo.js",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/www/js/dojo/dojox/collections/ArrayList.js",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/www/js/dojo/dojox/mobile/lazyLoadUtils.js",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/application/views/layouts/layout.phtml",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/library/ZFExt/Form/Decorator/FilterElement.php",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/tests/models/Rl_Validate_EmailAddressTest.php",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/application/configs/version.ini",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/www/js/dojo/dojox/mvc/parserExtension.js",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/www/js/dojo/dojox/mobile/Overlay.js",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/www/js/dojo/dojox/av/resources/version.mov",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/www/js/dojo/dojo-orig/dojo.js",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/application/views/scripts/translations/js.phtml",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/www/js/dojo/dojo/on.js",
+		"/Users/Lokesh/Documents/server-adportal/adpapp/www/js/dojo/dojox/data/demos/demo_OpenSearchStore.html"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"<project>",
+			"/Users/Lokesh/Documents/server-adportal/adpapp/library",
+			"<project>",
+			"/Users/Lokesh/Documents/server-adportal",
+			"<project>",
+			"/Users/Lokesh/Documents/server-adportal"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"it \"should be named after user's name\"do \n  first_name,last_name = 2.times.map{random_name}\n\n  user = User.new first_name: first_name,last_name: last_name \n  project = Project.new\n  project.user  = user\n  project.user.should eq(\"#{first_name} #{last_name}'s project\")\nend",
+			"\n\"",
+			"true",
+			"for",
+			"keyword",
+			"viewfilter",
+			"report",
+			"viewFilters",
+			"reportId",
+			"additionalPages",
+			"reportId",
+			"viewFilters",
+			"_setcontent",
+			"containerToggler",
+			"m_updates_tlAdvancedFilterLnk",
+			"viewTypeValues",
+			"option",
+			"filtersInfo",
+			"Info",
+			"FilteringSelect",
+			"db",
+			"product_filter",
+			"ap_common_additional_information",
+			"indexAction",
+			"route",
+			"scope",
+			"call"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/Lokesh/Documents/learning/rails_test/spec/rails_helper.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2328,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2301,
+								2301
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/Lokesh/Documents/learning/rails_test/spec/controllers/learning_tips_spec.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 998,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								681,
+								681
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 379.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 235.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 157.0
+	},
+	"project": "RailsTesting.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"ge",
+				"Gemfile"
+			],
+			[
+				"rake",
+				"Rakefile"
+			],
+			[
+				"",
+				"_layouts/post.html"
+			],
+			[
+				"ra",
+				"Rakefile"
+			],
+			[
+				"jek",
+				"_posts/2015-2-21-jekyll-plgins-not-working-mistakes.md"
+			],
+			[
+				"con",
+				"_config.yml"
+			],
+			[
+				"post",
+				"_layouts/post.html"
+			],
+			[
+				"tag",
+				"_plugins/tag_gen.rb"
+			],
+			[
+				"tag/",
+				"_site/how-to-make-tool-tip-arrow-or-dialog/index.html"
+			],
+			[
+				"conmg",
+				"_config.yml"
+			],
+			[
+				"_layout/tag",
+				"_layouts/tag_index.html"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"ext",
+				"_plugins/ext.rb"
+			],
+			[
+				"gem",
+				"_site/2014/02/03/php-how-to-get-sunday-and-saturday.html"
+			],
+			[
+				"_",
+				"_config.yml"
+			],
+			[
+				"_co",
+				"_config.yml"
+			],
+			[
+				"_plug",
+				"_plugins/font_awesome.rb"
+			],
+			[
+				"_cof",
+				"_config.yml"
+			],
+			[
+				"gems",
+				"_site/2014/02/03/php-how-to-get-sunday-and-saturday.html"
+			],
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"de",
+				"_layouts/default.html"
+			],
+			[
+				"co",
+				"_config.yml"
+			],
+			[
+				"c",
+				"_config.yml"
+			],
+			[
+				"page",
+				"_layouts/page.html"
+			],
+			[
+				"head.",
+				"_includes/head.html"
+			],
+			[
+				"_config",
+				"_config.yml"
+			],
+			[
+				"creatye",
+				"_site/2015/02/09/create-post-in-jekyll.html"
+			],
+			[
+				"caching",
+				"_site/2015/01/29/caching-your-github-password-in-git.html"
+			],
+			[
+				"create",
+				"_drafts/create-post-in-jekyll.markdown"
+			],
+			[
+				"keywordcon",
+				"adpapp/application/controllers/KeywordController.php"
+			],
+			[
+				"keyword",
+				"adpapp/application/controllers/KeywordController.php"
+			],
+			[
+				"naviagation",
+				"adpapp/library/ZFExt/Navigation/AdportalNavigation.php"
+			],
+			[
+				"keywordc",
+				"adpapp/application/controllers/KeywordController.php"
+			],
+			[
+				"rlfilter.js",
+				"adpapp/www/js/dojo/rlwidget/rlFilter.js"
+			],
+			[
+				"navigation.php",
+				"adpapp/library/ZFExt/Navigation/AdportalNavigation.php"
+			],
+			[
+				"key",
+				"adpapp/application/controllers/KeywordController.php"
+			],
+			[
+				"filter.html",
+				"adpapp/www/js/dojo/dojox/grid/enhanced/templates/FilterBar.html"
+			],
+			[
+				"rlwidget/report/rlfilter",
+				"adpapp/www/js/dojo/rlwidget/report/rlFilter.js"
+			],
+			[
+				"keyworddcon",
+				"adpapp/application/controllers/KeyworddetailController.php"
+			],
+			[
+				"keywor",
+				"adpapp/application/views/scripts/report/keyword/index.phtml"
+			],
+			[
+				"keyword/get",
+				"adpapp/application/views/scripts/report/keyword/getreportheader.phtml"
+			],
+			[
+				"dojo.p",
+				"adpapp/application/views/layouts/common/dojo.phtml"
+			],
+			[
+				"layout",
+				"adpapp/application/views/layouts/layout.phtml"
+			],
+			[
+				"dojo",
+				"adpapp/www/js/dojo/dojo/dojo.js"
+			],
+			[
+				"yml",
+				"adpapp/www/js/dojo/dojox/mobile/themes/common/domButtons/DomButtonGrayMinus.less"
+			],
+			[
+				"config",
+				"adpapp/application/configs/config.ini"
+			],
+			[
+				"config.ini",
+				"adpapp/application/configs/config.ini"
+			],
+			[
+				"applicat",
+				"adpapp/application/configs/application.ini"
+			],
+			[
+				"getreportheader",
+				"adpapp/application/views/scripts/report/getreportheader.phtml"
+			],
+			[
+				"productselect",
+				"adpapp/application/views/scripts/report/decorators/productselect.phtml"
+			],
+			[
+				"keyword/in",
+				"adpapp/application/views/scripts/report/keyword/index.phtml"
+			],
+			[
+				"zfex",
+				"adpapp/library/ZFExt/Exception/DebugException.php"
+			],
+			[
+				"scripts/display",
+				"adpapp/application/views/scripts/report/display/index.phtml"
+			],
+			[
+				"display",
+				"adpapp/application/controllers/DisplayController.php"
+			],
+			[
+				"datamapperreport",
+				"adpapp/application/models/DataMapper/Report.php"
+			],
+			[
+				"report",
+				"adpapp/application/models/Report.php"
+			],
+			[
+				"applica",
+				"adpapp/application/configs/application.ini"
+			],
+			[
+				"route",
+				"adpapp/www/js/dojo/dojo/router.js"
+			],
+			[
+				"dispaly",
+				"adpapp/application/controllers/DisplayController.php"
+			],
+			[
+				"reportcont",
+				"adpapp/application/controllers/CpreportController.php"
+			],
+			[
+				"controll/a",
+				"adpapp/application/controllers/AdvertisingController.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/Jekyll_blog/Jekyll-blog.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 410.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
