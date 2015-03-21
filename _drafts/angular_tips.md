@@ -117,4 +117,11 @@ app.service('myService',function(){
 ```
 
 10. Basic angaluar directives and examples to use them.
-	
+	- `ng-bind`
+	- `ng-bind-template` 
+	- `ng-class`
+	- `ng-cloak`
+	- `ng-blur`
+
+11. This is very important topic of angular `provider`. Follow the [link](https://docs.angularjs.org/guide/providers).
+12. 
