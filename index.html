@@ -13,6 +13,8 @@ layout: default
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <!-- show the excerpt the blog -->
+        {{ post.excerpt }}
         </h2>
         <!-- show the excerpt the blog -->
         {{ post.excerpt }}

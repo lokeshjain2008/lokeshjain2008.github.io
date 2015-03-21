@@ -1,4 +1,9 @@
 _site
 .sass-cache
+<<<<<<< HEAD
+Jekyll-ruby.sublime-project
+Jekyll-ruby.sublime-workspace
+=======
 jekyll-blog.sublime-project
 jekyll-blog.sublime-workspace
+>>>>>>> 74f11e2803909a382fdcff28708d03d146d525b9

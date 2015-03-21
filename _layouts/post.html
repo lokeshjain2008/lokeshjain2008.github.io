@@ -1,8 +1,18 @@
 ---
 layout: default
 ---
-<div class="post">
+<article class="post">
 
+<<<<<<< HEAD
+	{% if page.external-url %}
+		<h1>
+			<a href="{{ page.external-url }}">{{ page.title }}</a> 
+			<a class="anchor" href="{{ page.url }}"><i class="icon-anchor"></i></a>
+		</h1>
+	{% else %}
+		<h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+	{% endif %}
+=======
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
@@ -12,10 +22,15 @@ layout: default
       {% endfor %}
     </p>
   </header>
+>>>>>>> 74f11e2803909a382fdcff28708d03d146d525b9
 
+<<<<<<< HEAD
+	<div class="post-content">{{ content }}</div>
+=======
   <article class="post-content">
     {{ content }}
   </article>
+>>>>>>> 73ac5d0926d6cce1627790405c7870936765d2c8
 	<!-- Added the sharing	 -->
 	<!-- Go to www.addthis.com/dashboard to customize your tools -->
 	<div class="addthis_sharing_toolbox_container">
@@ -28,15 +43,30 @@ layout: default
 	<div id="disqus_thread"></div>
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+<<<<<<< HEAD
+        var disqus_shortname = ''; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + "{{site.disqus_shortname}}" + '.disqus.com/embed.js';
+=======
         var disqus_shortname = "{{ site.disqus_shortname }}"; // required: replace example with your forum shortname
         /* * * DON'T EDIT BELOW THIS LINE * * */
         (function() {
             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
             dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+>>>>>>> 73ac5d0926d6cce1627790405c7870936765d2c8
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
         })();
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<<<<<<< HEAD
+    {% endif %}
+
+</article>
+=======
     {% endif %}		
 	
 </div>
+>>>>>>> 73ac5d0926d6cce1627790405c7870936765d2c8
