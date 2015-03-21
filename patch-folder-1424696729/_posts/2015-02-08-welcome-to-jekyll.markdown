@@ -2,7 +2,6 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2015-02-08 19:59:33
-comments: true
 categories: jekyll update
 comments: true
 tags: [git, test,jekyll]
