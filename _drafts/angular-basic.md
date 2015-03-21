@@ -6,6 +6,45 @@ comments: true
 
 #Learning the angular for the good reasons
 [Angular best practices](https://www.youtube.com/watch?v=ZhfUv0spHCY)
+[Stack overflow](http://stackoverflow.com/questions/12371159/how-to-get-evaluated-attributes-inside-a-custom-directive)
+
+### Working with associations in rails 
+
+```ruby
+class Project < AR
+  
+  has_many: tasks
+  
+  # Form to create tasks for the project from single query.
+  # 
+  accepts_nested_attributes_for :tasks, allow_destroy: true
+
+end
+
+```
+In angular we are sending object for the data. 
+
+like `rails` basic nested forms
+
+
+```ruby
+<=% f.attributes_for :tasks do |t|>
+  <%= t.text_field :name %>
+<% end%>
+```
+This will create like this.
+
+```html
+<input type="text" name="project[tasks_attributes][0][name]">
+
+```
+To accepts this need to change the params
+
+```ruby
+  params.require('project').permit(tasks_attributes:[:name,....])
+
+```
+
 
 ```javascript
 $rootScope and scope in angular

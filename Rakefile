@@ -39,13 +39,13 @@ task :create_post, :name  do |t,args|
 
  time = Time.new	
  file_name =  "_posts/#{time.year}-#{time.month.to_s.rjust(2,'0')}-#{time.day.to_s.rjust(2,'0')}-#{args[:name]}.md"
- touch file_name
+ touch file_name.gsub!(/\s/,'-')
  content = """
 ---
 layout: post
-date: %Q{#{time.asctime}}
+date: #{time.asctime.to_s}
 comments: true
-title: #{args[:name].gsub(/[-,_]/,' ')}
+title: #{args[:name].gsub(/[-,_]/,' ').to_s}
 ---
  """
  File.write(file_name,content)

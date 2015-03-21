@@ -10,7 +10,7 @@ title: serialization-in-ruby
  2. `Marshaling`
  3. 'Json'
 
- ---
+ <!-- --- -->
 
  Here is ruby code 
 
