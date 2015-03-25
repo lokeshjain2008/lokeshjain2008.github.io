@@ -87,4 +87,9 @@ git checkout feature
 git rebase master
 
 ```
+6. To cache the username/password in git push
 
+```sh
+git config --global credential.helper osxkeychain
+
+```
