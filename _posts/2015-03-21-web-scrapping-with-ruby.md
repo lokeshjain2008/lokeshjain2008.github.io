@@ -4,7 +4,8 @@ date: "Sat Mar 21 21:02:29 2015"
 comments: true
 title: "web scrapping with ruby"
 ---
-## web scrapping with ruby 
+
+### web scrapping with ruby 
 
 Ruby is very user friendly language. I like this computer language to complete all my needs.
 I find many solutions to accomplish this task. 
