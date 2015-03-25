@@ -94,6 +94,23 @@ end
 
 ```
 
+Note : if we and to change the behaviour of one element.
+
+
+```ruby
+
+object @budget_product_promo
+attributes :id,
+           :name,
+           node(:amount){|o|o.amount.to_f},
+           :promo_sym,
+           :promo_cycle_type,
+           :budget_product_id
+
+```
+
+
+
 Finally here is some good read for the `eagerload` in rails.
 
 [rails4-preloading](http://blog.arkency.com/2013/12/rails4-preloading/)

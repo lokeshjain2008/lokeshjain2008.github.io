@@ -30,7 +30,7 @@ If you have problem with the parallel bundle than fallback to the default
 ###Testing (spec / cucumber / )
 [mocking/stubing/double](http://blog.codeship.com/rspec-stub-and-mock/)
 [Fast testing](http://blog.codeship.com/faster-rails-tests/)-http://www.sitepoint.com/ruby/
-
+[Rails preloading](http://blog.arkency.com/2013/12/rails4-preloading/)
 ##Rails logs
 -http://blog.codeship.com/
 -http://www.sitepoint.com/ruby/

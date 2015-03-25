@@ -58,3 +58,33 @@ If not then:
 git reset
 git checkout -- $(git ls-files -d)
 ```
+To restore deleted files the last part should look like git ls-files -d and thet it will recover only deleted files.
+
+4. view git log only for current branch 
+
+Assuming that your branch was created off of master :
+
+```sh
+git cherry -v master
+
+```
+or
+If your branch was made off of origin/master, then say origin/master instead of master.
+
+```sh
+
+git log master..
+
+```
+
+5. git rebase 
+
+If your current branch is running behind the master branch then 
+
+```sh
+git checkout feature 
+
+git rebase master
+
+```
+
