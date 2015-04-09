@@ -26,3 +26,73 @@ if(my_conditions){
 
 ```
 
+### `$broadcast` and `$emit` in angaular js.
+
+- `$broadcast` goes from top to bottom or parent to all children.
+- `$emit` travels from child to parent.
+- `$on` will get the message and act on it. 
+
+```javascript
+
+$scope.$broadcast('will_go_down',{
+	data: 'all children come home'
+});
+
+$scope.$on('will_go_down',function(){
+	return 'coming';
+});
+
+$scope.$emit('get_me_home',{
+	data: 'father take me home'
+});
+
+$scope.$on('get_me_homw',function(){
+	return 'do it by your self';
+});
+
+```
+
+### create and destroy the `scope` in angaular
+
+careating a new scope is simple
+`var new_scope = scope.$new() `
+
+and destroy with `$destroy`
+
+`new_scope.$destroy()` 
+to stop memory leak due to scopes in angaular. It developer duty to handle created scope./
+
+Here is good link for this: [link](http://www.toptal.com/angular-js/videos/javascript-video-tutorial-using-destroy-to-clean-up-scopes-in-angularjs)
+
+
+### Watching for changes in angularjs there are following for this.
+- `$watch`
+	```javascript
+	$scope.$watch('prop',function(newValue, oldValue){
+			
+	});
+
+	```
+- `$watchGroup` If we want to watch more than one property
+
+	```javascript
+		
+	$scope.$watchGroup(['propOne','prop2'],function(newValues, oldValues){
+
+	});
+	```
+- `$watchCollection` Two watch the array or complex data.
+
+
+### `$digest` is better than `$apply` and `$observe` is better than `$watch`.
+
+
+
+ 
+
+
+
+
+
+
+
