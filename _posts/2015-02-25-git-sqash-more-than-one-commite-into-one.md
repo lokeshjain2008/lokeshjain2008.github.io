@@ -93,3 +93,32 @@ git rebase master
 git config --global credential.helper osxkeychain
 
 ```
+
+7. Git push to other branch from one branch
+if we want to push branch(feature) to the remote origin/branch then use
+
+```sh
+
+git checkout feature
+git push origin feature:master
+
+```
+8. delete remote branch 
+
+```sh 
+
+git push origin :<branch-name>
+
+```
+
+9. git-checkout specific files from another branch.
+As an example, this is how you could update your gh-pages branch on GitHub (used to generate a static site for your project) to include the latest changes made to a file that is on the master branch.
+
+```sh
+
+# On branch master
+git checkout gh-pages
+git checkout master -- myplugin.js
+git commit -m "Update myplugin.js from master"
+
+```
