@@ -67,6 +67,7 @@ Here is good link for this: [link](http://www.toptal.com/angular-js/videos/javas
 
 ### Watching for changes in angularjs there are following for this.
 - `$watch`
+	
 	```javascript
 	$scope.$watch('prop',function(newValue, oldValue){
 			
@@ -84,11 +85,13 @@ Here is good link for this: [link](http://www.toptal.com/angular-js/videos/javas
 - `$watchCollection` Two watch the array or complex data.
 
 
-### `$digest` is better than `$apply` and `$observe` is better than `$watch`.
+### Angular wise choose for the function.
+- `$digest` is better than `$apply`. 
+- `$observe` is faster than `$watch`. as `$watch` will run two to functions to complete the task one for comparision and then for the callback.
 
 
 
- 
+
 
 
 
