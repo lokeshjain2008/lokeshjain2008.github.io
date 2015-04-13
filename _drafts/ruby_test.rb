@@ -1,3 +1,16 @@
+=begin
+
+1. ruby all the concepts again make a article for the the videos for this.
+
+2. Brakeman, rubocop, flog, matric fu
+3. fog for the Clound integration, AWS and more
+
+3.
+
+
+
+=end
+
 require 'rspec'
 
 double('book',name:"lokesh") # => 
