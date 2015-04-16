@@ -7,6 +7,8 @@ title: "ruby ROR and websites collection"
  List of amazing websites for developers. 
 
 amazing tutorial for the new rubist on the ruby...
+
+
 - [Ruby beginner](http://www.sitepoint.com/ruby-ecosystem-new-rubyists/)
 - [Gems collection](https://medium.com/@riklomas/my-favourite-ruby-gems-services-89fb47341c05)
 
@@ -42,26 +44,27 @@ amazing tutorial for the new rubist on the ruby...
 -[ParallelTest](https://github.com/grosser/parallel_tests)
 
 - Ror, ruby tricks
-  *Bundle install is slow for this, There is parallel bundle options
-  
-  What is the number for the parallel jobs 
-	It will be N-1 (N:number of core cpu have)
-	how to find number of core machine have.
-	`sysctl -n hw.ncpu`
-	`lscpu`
+  * Bundle install is slow for this, There is parallel bundle options
+	  What is the number for the parallel jobs 
+		It will be N-1 (N:number of core cpu have)
+		how to find number of core machine have.
+		`sysctl -n hw.ncpu`, `lscpu`.
 
-  ```sh
-	  
-	  //Save time using parallel install
-		$ bundle config --global --jobs 7 // total cup(8) - 1
-		$ time bundle install
-	
-	```
-	If you have problem with the parallel bundle than fallback to the default
-	`vim ~/.bundle/config`
+		```
+			  
+		  //Save time using parallel install
+			$ bundle config --global --jobs 7 // total cup(8) - 1
+			$ time bundle install
+
+		```
+
+		If you have problem with the parallel bundle than fallback to the default
+		`vim ~/.bundle/config`
 
 	* To serve `precomplied` assets on the develpment
 
-	```sh
+		```sh
+			
+			RAILS_EVN=development rake assets:precomplie
 
-	```
+		```
