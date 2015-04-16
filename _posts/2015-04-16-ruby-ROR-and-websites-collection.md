@@ -7,17 +7,17 @@ title: "ruby ROR and websites collection"
  List of amazing websites for developers. 
 
 amazing tutorial for the new rubist on the ruby...
-[Ruby beginner](http://www.sitepoint.com/ruby-ecosystem-new-rubyists/)
-[Gems collection](https://medium.com/@riklomas/my-favourite-ruby-gems-services-89fb47341c05)
+- [Ruby beginner](http://www.sitepoint.com/ruby-ecosystem-new-rubyists/)
+- [Gems collection](https://medium.com/@riklomas/my-favourite-ruby-gems-services-89fb47341c05)
 
 
 ### hosting, cloud editor, terminals
--[cloud 9](c9.io)
--[terminal](https://www.terminal.com/)
--[koding](https://koding.com/)
--[gitter](https://gitter.im)
--[ElasticBox](https://elasticbox.com/)
--[ChefIO](https://www.chef.io/) See video how it works. That is enough for convince me to use it.
+-	[cloud 9](c9.io)
+-	[terminal](https://www.terminal.com/)
+-	[koding](https://koding.com/)
+-	[gitter](https://gitter.im)
+-	[ElasticBox](https://elasticbox.com/)
+-	[ChefIO](https://www.chef.io/) See video how it works. That is enough for convince me to use it.
 
 ---
 
