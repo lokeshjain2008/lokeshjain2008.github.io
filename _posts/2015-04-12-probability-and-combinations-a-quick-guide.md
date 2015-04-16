@@ -78,6 +78,9 @@ One more question for the practice
 
 ![coin Question](http://i.imgur.com/VvZ8rts.png)
 
+Futher reading 
+- [Combinations and Permutations](https://www.mathsisfun.com/combinatorics/combinations-permutations.html)
+- [Better explanation of C&P](http://betterexplained.com/articles/easy-permutations-and-combinations/)
 
 
 
