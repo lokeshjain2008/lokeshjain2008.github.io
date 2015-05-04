@@ -30,6 +30,8 @@ title: "ruby and ruby on rails ROR some tips"
 
 - `brakeman`: for sequrity and check for the errors [link](http://railscasts.com/episodes/358-brakeman?view=comments)
 
+- `pundit`: patterns to build a simple, robust and scaleable authorization system.[link](https://github.com/elabs/pundit)
+
 - *Testing*
 	- `webmock` , ``
 ### Some key concepts in ruby and ROR.

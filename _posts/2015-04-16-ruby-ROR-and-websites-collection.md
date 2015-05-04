@@ -17,10 +17,13 @@ amazing tutorial for the new rubist on the ruby...
 -	[cloud 9](c9.io)
 -	[terminal](https://www.terminal.com/)
 -	[koding](https://koding.com/)
--	[gitter](https://gitter.im)
+- [intercityup](https://intercityup.com/) Rails hosting.
+-	[gitter](https://gitter.im) Chat, for GitHub.
 -	[ElasticBox](https://elasticbox.com/)
 -	[ChefIO](https://www.chef.io/) See video how it works. That is enough for convince me to use it.
-
+- [Electron](http://electron.atom.io/) To create destop application using Web-technologies(js/html/css).
+- [StrongLoop](https://strongloop.com/) Compose APIs, Build, Deploy and Monitor Node. Need to check this out.
+- [paw](https://luckymarmot.com/paw) The unltimate REST api client for Mac.
 ---
 
 ### Good websites with great content and `blogs`.
@@ -34,14 +37,18 @@ amazing tutorial for the new rubist on the ruby...
 - [Rails preloading](http://blog.arkency.com/2013/12/rails4-preloading/)
 
 - **Blogs**
-	* http://blog.codeship.com/
-  * http://www.sitepoint.com/ruby/
+	* [CodeShip](http://blog.codeship.com/)
+  * [Sitepoint](http://www.sitepoint.com/ruby/)
+  * [CodeSchool](https://www.codeschool.com/blog/archive/)
+  * [Arkency](http://blog.arkency.com/)
 
 ---
 
 ### Ruby/Rails gems, Good resouces, Tricks
 
--[ParallelTest](https://github.com/grosser/parallel_tests)
+- [ParallelTest](https://github.com/grosser/parallel_tests)
+- [Sucker_puch](https://github.com/brandonhilkert/sucker_punch) Sucker Punch is a Ruby asynchronous processing library using Celluloid, heavily influenced by Sidekiq and girl_friday.
+- []()
 
 - Ror, ruby tricks
   * Bundle install is slow for this, There is parallel bundle options

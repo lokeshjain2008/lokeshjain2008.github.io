@@ -31,6 +31,8 @@ bower install angular#1.3.0 --save
 ```
 Now, this `angular#1.3.0` will be added in your bower.json file
 
+Note: For node we have `package.json` but to get started do `npm init` and rest will be easy.
+
 ---
 ### [Gulp](http://gulpjs.com/)
 
@@ -38,7 +40,7 @@ Getting started with is also easy.
 
 #### Step-1
 
-```sh 
+```sh
 npm install --save-dev gulp
 
 touch gulpfile.js
@@ -105,11 +107,13 @@ It would be nicer if gulp do it when there is change a in any file.
 For this we have watches to do that for us.
 
 ```javascript
+
 gulp.task('watch:asset', function(){
 	gulp.watch('js/*js',['asset:uglify']);
 });
 
 ```
+
 Call this is in terminal and it will be watching for changes in the specified files and will
 be running `asset:unglify` for it. Yahoo! we are good but wait lets check if there is any error in the process then what we get.
 I have made a mistake in one my js file and gulp stops.
@@ -117,7 +121,9 @@ I have made a mistake in one my js file and gulp stops.
 
 What we do now.
 
+
 ```javascript
+
 gulp.task('asset:uglify',function(){
 	//note don't user `return` keyword that may break this code.
 	gulp.src('js/*js')
@@ -137,7 +143,47 @@ You may get some errors. See this [link](https://github.com/gulpjs/gulp/issues/2
 Alternate solution will be like using [plumber](https://www.npmjs.com/package/gulp-plumber/)
 
 
+#### Pass command line argument to the `gulp task`.
+currently i was on project that required me to pass command line argument to the gulp task.
+i find [gulp-util](https://github.com/gulpjs/gulp-util) very easy to use with.
 
+function to create dynamically folder and structure for the project.
+
+```javascript
+
+gulp.task("local:module", function() {
+    console.log(util.env); // used to get command line arguments. Other solution wil be [gulp-prompt](https://www.npmjs.com/package/gulp-prompt)
+    var inputs = util.env;
+    var base_path = 'app/modules/rl.reachsign/';
+    var folder_to_build = ['js', 'css', 'html', 'lang'];
+    if (util.env.new) {
+        var module_name = util.env.new;
+        //create module folder
+        fs.mkdir(base_path+module_name,function(err){
+         console.log(err);return;  
+        });
+        //create child folder for module
+        folder_to_build.map(function(folder){
+          fs.mkdir(base_path+module_name+"/"+folder,function(err){
+            console.log(err);
+          });
+          //create child files
+          if(folder !== 'lang'){
+             fs.writeFile(base_path+module_name+"/"+folder+"/"+module_name+"."+folder, function(){}); 
+          }else{
+             fs.writeFile(base_path+module_name+"/"+folder+"/"+module_name+".json", function(){}); 
+          }
+
+        });
+        
+
+    } else {
+       console.log('Please use --new <module-name> to create skeleton....'); 
+    }
+
+});
+
+```
 	
 
 
