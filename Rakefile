@@ -3,7 +3,7 @@ task :task_name do
 	p "Hello from the taks file"
 end
 
-namespace :learning do 
+namespace :learning do
 
 	desc "this will work with namespace"
 	task :one  do
@@ -30,14 +30,14 @@ end
 
 # send data to the rake bro.
 desc "Will create post file in the directory.."
-=begin 
-For the rake paramters it was messing with the ZSH and there was a solution 
+=begin
+For the rake paramters it was messing with the ZSH and there was a solution
 alias rake='noglob rake'
 
 =end
 task :create_post, :name  do |t,args|
 
- time = Time.new	
+ time = Time.new
  file_name =  "_posts/#{time.year}-#{time.month.to_s.rjust(2,'0')}-#{time.day.to_s.rjust(2,'0')}-#{args[:name]}.md"
  touch file_name.gsub!(/\s/,'-')
  content = """

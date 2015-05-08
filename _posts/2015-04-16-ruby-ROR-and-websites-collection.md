@@ -18,6 +18,8 @@ amazing tutorial for the new rubist on the ruby...
 -	[terminal](https://www.terminal.com/)
 -	[koding](https://koding.com/)
 - [intercityup](https://intercityup.com/) Rails hosting.
+- [cloud66](http://www.cloud66.com/) Script free Ops for Developers(Hosting and Server)
+- [lenode](https://www.linode.com/) Cloud Hosting for You. High performance SSD Linux servers for all of your infrastructure needs.
 -	[gitter](https://gitter.im) Chat, for GitHub.
 -	[ElasticBox](https://elasticbox.com/)
 -	[ChefIO](https://www.chef.io/) See video how it works. That is enough for convince me to use it.
