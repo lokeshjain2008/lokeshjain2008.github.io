@@ -30,7 +30,7 @@ if(my_conditions){
 
 - `$broadcast` goes from top to bottom or parent to all children.
 - `$emit` travels from child to parent.
-- `$on` will get the message and act on it. 
+- `$on` will get the message and act on it.
 
 ```javascript
 
@@ -59,7 +59,7 @@ careating a new scope is simple
 
 and destroy with `$destroy`
 
-`new_scope.$destroy()` 
+`new_scope.$destroy()`
 to stop memory leak due to scopes in angaular. It developer duty to handle created scope./
 
 Here is good link for this: [link](http://www.toptal.com/angular-js/videos/javascript-video-tutorial-using-destroy-to-clean-up-scopes-in-angularjs)
@@ -67,17 +67,17 @@ Here is good link for this: [link](http://www.toptal.com/angular-js/videos/javas
 
 ### Watching for changes in angularjs there are following for this.
 - `$watch`
-	
+
 	```javascript
 	$scope.$watch('prop',function(newValue, oldValue){
-			
+
 	});
 
 	```
 - `$watchGroup` If we want to watch more than one property
 
 	```javascript
-		
+
 	$scope.$watchGroup(['propOne','prop2'],function(newValues, oldValues){
 
 	});
@@ -86,12 +86,52 @@ Here is good link for this: [link](http://www.toptal.com/angular-js/videos/javas
 
 
 ### Angular wise choose for the function.
-- `$digest` is better than `$apply`. 
+- `$digest` is better than `$apply`.
 - `$observe` is faster than `$watch`. as `$watch` will run two to functions to complete the task one for comparision and then for the callback.
 
 
+----
+### Angular Testing
+----
+1. Testing it good for the project to gain confidance about the coding.
 
+lets try to write testing for the following code `directive`.
 
+```javascript
+
+(function(){
+  'use strict';
+  angular
+    .module('rl.directive',[])
+    .directive('campaignInstruction',[function(){
+      return{
+        restrict: 'E',
+        scope: {
+          product: '='
+        },
+        templateUrl: 'camp_inst.html',
+        link: linkFunction,
+        controller: ['$scope', campaignInstruction],
+        controllerAs: 'campIns'
+       // bindToController: true
+      };
+
+      function linkFunction(scope, element, attrs){
+
+      }
+
+      function campaignInstruction($scope, offerFactory, advertiserFactory){
+        /* jshint validthis: true */
+        var vm = this;
+        vm.someValues = [1,2,3,4];
+        vm.offerTypes = offerFactory;
+      }
+
+    }]);
+}());
+
+```
+This directive has templateUrl with this.
 
 
 
