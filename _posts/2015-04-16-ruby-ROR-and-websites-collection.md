@@ -14,9 +14,9 @@ amazing tutorial for the new rubist on the ruby...
 
 
 ### hosting, cloud editor, terminals
--	[cloud 9](c9.io)
--	[terminal](https://www.terminal.com/)
--	[koding](https://koding.com/)
+- [cloud 9](c9.io)
+- [terminal](https://www.terminal.com/)
+- [koding](https://koding.com/)
 - [intercityup](https://intercityup.com/) Rails hosting.
 - [cloud66](http://www.cloud66.com/) Script free Ops for Developers(Hosting and Server)
 - [lenode](https://www.linode.com/) Cloud Hosting for You. High performance SSD Linux servers for all of your infrastructure needs.
@@ -37,9 +37,10 @@ amazing tutorial for the new rubist on the ruby...
 - [mocking/stubing/double](http://blog.codeship.com/rspec-stub-and-mock/)
 - [Fast testing](http://blog.codeship.com/faster-rails-tests/)-http://www.sitepoint.com/ruby/
 - [Rails preloading](http://blog.arkency.com/2013/12/rails4-preloading/)
+- [Rails+grep+ember](https://devmynd.com/blog/2014-7-rails-ember-js-with-the-ember-cli-redux-part-1-the-api-and-cms-with-ruby-on-rails)
 
 - **Blogs**
-	* [CodeShip](http://blog.codeship.com/)
+  * [CodeShip](http://blog.codeship.com/)
   * [Sitepoint](http://www.sitepoint.com/ruby/)
   * [CodeSchool](https://www.codeschool.com/blog/archive/)
   * [Arkency](http://blog.arkency.com/)
