@@ -1,8 +1,8 @@
 ---
 layout: post
-date: Tue May 12 15:08:16 2015
+date: "Tue May 12 15:08:16 2015"
 comments: true
-title: Error: Cannot find module 'lodash. reinterpolate' in npm
+title: "Error: Cannot find module 'lodash. reinterpolate' in npm"
 ---
 I was working with `angular` project and was using `node` for the server and package dependies.
 After doint some package installing.
