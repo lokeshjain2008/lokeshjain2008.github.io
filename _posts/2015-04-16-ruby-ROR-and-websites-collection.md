@@ -12,6 +12,12 @@ amazing tutorial for the new rubist on the ruby...
 - [Ruby beginner](http://www.sitepoint.com/ruby-ecosystem-new-rubyists/)
 - [Gems collection](https://medium.com/@riklomas/my-favourite-ruby-gems-services-89fb47341c05)
 
+### JavaScript, and other
+- The modular backend platform for web developers.[stamplay](https://stamplay.com/)
+- JavaScript, Agular blog [scotch](https://scotch.io/)
+- Effortless web publishing through Dropbox [harp](http://harp.io)
+- Zapier connects the web apps you use to easily move your data and automate tedious tasks [Zapier](https://zapier.com/)
+- For the data storing like firebse [parse)](https://parse.com/)
 
 ### hosting, cloud editor, terminals
 - [cloud 9](c9.io)

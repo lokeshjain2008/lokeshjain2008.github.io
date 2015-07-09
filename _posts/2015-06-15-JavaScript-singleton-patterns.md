@@ -4,11 +4,11 @@ date: "Mon Jun 15 13:00:03 2015"
 comments: true
 title: "JavaScript singleton patterns"
 ---
-I was interested in javasacript `singleton-design-pattern`. Here i got some patterns for the pattern.
+I was interested in javascript `singleton-design-pattern`. Here i got some patterns for the pattern.
 
 1. from viral patel blog.
 
-```javasacript
+```javascript
 
 var Sun = (function(){
               var sunInstance; //private variable to hold the
@@ -54,7 +54,7 @@ The Sun variable will be assigned what this return statement evaluates to. And c
 
 ####patttern 2:
 
-```javasacript
+```javascript
 
 
 var singleton = (function() {
