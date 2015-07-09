@@ -16,9 +16,8 @@ title: "angular animation 1.4 with ui router stop working wierd behaviour"
  We found that magic classes like `ng-hide-active, ng-animate, ...` were missing. That is angular animation
 is doing nothing. see the pen.
 
-<p data-height="268" data-theme-id="0" data-slug-hash="YXwPBo" data-default-tab="result" data-user="lokeshjain2008" class='codepen'>See the Pen <a href='http://codepen.io/lokeshjain2008/pen/YXwPBo/'>YXwPBo</a> by lokesh kumar jain (<a href='http://codepen.io/lokeshjain2008'>@lokeshjain2008</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="268" data-theme-id="0" data-slug-hash="NqMNeZ" data-default-tab="result" data-user="lokeshjain2008" class='codepen'>See the Pen <a href='http://codepen.io/lokeshjain2008/pen/NqMNeZ/'>NqMNeZ</a> by lokesh kumar jain (<a href='http://codepen.io/lokeshjain2008'>@lokeshjain2008</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-
 
 
 Working `pen`. The solution was to make move `Ui-view` from body tag.
