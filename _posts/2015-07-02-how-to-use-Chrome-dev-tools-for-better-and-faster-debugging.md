@@ -19,6 +19,6 @@ There and some good to know tricks for better debugging for the `dev-tool`.
 
 Images --
 
-- [^http://imgur.com/LtzvoML]
-- [^http://imgur.com/mWrRAmh]
-- [^http://imgur.com/YvQthMc]
+- ![image 1](http://imgur.com/LtzvoML)
+- ![image 2](http://imgur.com/mWrRAmh)
+- ![iamge](http://imgur.com/YvQthMc)
