@@ -253,3 +253,5 @@ server = HTTPServer.new(:Port=>2000,:DocumentRoot=>Dir::pwd )
 trap("INT"){ server.shutdown }
 server.start
 ```
+
+Note: This post is copied from this [location](https://matteomelani.wordpress.com/2011/11/11/a-simple-web-server-is-ruby/). Finally, he got into **Twitter**.
