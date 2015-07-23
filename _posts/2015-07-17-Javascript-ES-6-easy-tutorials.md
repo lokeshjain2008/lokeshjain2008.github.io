@@ -326,5 +326,22 @@ let [ok,...all] = [1,2,3,4];
 
 console.log(ok,all); //1 [2, 3, 4]
 
+```
+
+- ES6 Modules [link](http://www.sitepoint.com/understanding-es6-modules/)
+Follow, the link for the complete Info on the modules.
+
+
+- Set, Map, WeakMap and WeakSet [link](http://www.es6fiddle.net/icgiz5z8/)
+
+
+```javascript
+
+
 
 ```
+
+The main differences to the Set object are:
+
+In contrast to Sets, WeakSets are collections of objects only and not of arbitrary values of any type.
+The WeakSet is weak: References to objects in the collection are held weakly. If there is no other reference to an object stored in the WeakSet, they can be garbage collected. That also means that there is no list of current objects stored in the collection. WeakSets are not enumerable.
