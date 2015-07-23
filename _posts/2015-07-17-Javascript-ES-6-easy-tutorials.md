@@ -2,17 +2,12 @@
 layout: post
 date: "Fri Jul 17 09:47:28 2015"
 comments: true
-title: "Javascript conf bangaluru"
+title: "ES6 Javascript with examples",
+tags: [Javascript, es-6, es6, tutorial]
 ---
 
 
-- Css will-change
-- css animation API
-
-
 transform: translateZ(0);
-
-
 ```javascript
   var animationPlayer = $0.animate([{
     transform: 'translateX(0px)'
@@ -27,9 +22,6 @@ transform: translateZ(0);
   }
   animationPlayer.onfinish(e);
 ```
-
-[joe](/joe8tbit)
-
 ----
 ### React core concept.
 - for every dom element, there's a component.
@@ -37,13 +29,6 @@ transform: translateZ(0);
 - data flows only in the one direction. down the tree
 - conceptually, we never update or mutate do re-render
 
-
-
-- docker ,webpack, react, emberJs, tools
-
-- Goal for 2 days
-- set Atom to do more
-- flow, from nuclide
 
 ### ES-6 core concept with exmaples.
 I heard longtime ago that new JavaScript is coming. There are lot of buzz around it. I was waiting to use it code but no browser supports it fully.
