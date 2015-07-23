@@ -2,7 +2,7 @@
 layout: post
 date: "Fri Jul 17 09:47:28 2015"
 comments: true
-title: "ES6 Javascript with examples",
+title: "ES6 Javascript with examples"
 tags: [Javascript, es-6, es6, tutorial]
 ---
 I heard longtime ago that new JavaScript is coming. There are lot of buzz around it. I was waiting to use it code but no browser supports it fully.
@@ -25,7 +25,7 @@ transform: translateZ(0);
   }
   animationPlayer.onfinish(e);
 ```
-----
+
 ### React core concept.
 - for every dom element, there's a component.
 - no templates at runtime . only javasscrpt.
