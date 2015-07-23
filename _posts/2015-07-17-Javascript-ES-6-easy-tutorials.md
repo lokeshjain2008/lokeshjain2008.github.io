@@ -5,9 +5,12 @@ comments: true
 title: "ES6 Javascript with examples",
 tags: [Javascript, es-6, es6, tutorial]
 ---
+I heard longtime ago that new JavaScript is coming. There are lot of buzz around it. I was waiting to use it code but no browser supports it fully.
+Till then i kept waiting until people started to say ES-6 is old ES-7 is coming but i haven't learnt ES-6.
 
 
 transform: translateZ(0);
+
 ```javascript
   var animationPlayer = $0.animate([{
     transform: 'translateX(0px)'
@@ -100,6 +103,7 @@ var bob = {
 Note: we have already used let above
 
 example 1:
+
 ```javascript
 var x = 0;
 
