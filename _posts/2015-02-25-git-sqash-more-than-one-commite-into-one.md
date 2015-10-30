@@ -12,7 +12,7 @@ Git is great and but still there is a lot to learn for big projects to complete.
 1. some basic git commands
 
 ```bash
-git log 
+git log
 git log --oneline
 git log --graph --oneline
 git log --graph --oneline --all
@@ -27,13 +27,13 @@ git branch -r #all remote branch
 
 ```bash
 git log --oneline #count how many commits you want to squash into one
-git rebase -i HAED~<counts-to-sqash> #this will open up your editor if added for the git 
+git rebase -i HAED~<counts-to-sqash> #this will open up your editor if added for the git
 # change pick to `squash`(want to remote) and have at-least one pick(you want to show).
 # now save it. Then again you need to have only commit message. save it
 git push origin :<branch> # this will delete the remote branch on origin
 git push origin <branch> # This will create the remote branch again. Now every thing will look fine.
 ```
-3. sublime error for the git. 
+3. sublime error for the git.
 ---
 I encountered sublime error
 
@@ -46,7 +46,7 @@ solution
 git config --global core.editor "subl -n -w"
 ```
 ### Git: if removed file using `git rm`
-Then 
+Then
 If you already commited changes, then:
 
 ```bash
@@ -60,7 +60,7 @@ git checkout -- $(git ls-files -d)
 ```
 To restore deleted files the last part should look like git ls-files -d and thet it will recover only deleted files.
 
-4. view git log only for current branch 
+4. view git log only for current branch
 
 Assuming that your branch was created off of master :
 
@@ -77,12 +77,12 @@ git log master..
 
 ```
 
-5. git rebase 
+5. git rebase
 
-If your current branch is running behind the master branch then 
+If your current branch is running behind the master branch then
 
 ```sh
-git checkout feature 
+git checkout feature
 
 git rebase master
 
@@ -103,9 +103,9 @@ git checkout feature
 git push origin feature:master
 
 ```
-8. delete remote branch 
+8. delete remote branch
 
-```sh 
+```sh
 
 git push origin :<branch-name>
 
@@ -122,3 +122,28 @@ git checkout master -- myplugin.js
 git commit -m "Update myplugin.js from master"
 
 ```
+
+10. Add username/password of git project to cache from `HTTPS`.
+----
+
+You can also have Git store your credentials permanently using the following:
+
+git config credential.helper store
+Note: While this is convenient, Git will store your credentials in clear text in a local file (.git-credentials) under your project directory (see below for the "home" directory). If you don't like this, delete this file and switch to using the cache option.
+
+If you want Git to resume to asking you for credentials every time it needs to connect to the remote repository, you can run this command:
+
+`git config --unset credential.helper`
+To store the passwords in .git-credentials in your %HOME% directory as opposed to the project directory: use the --global flag
+
+`git config --global credential.helper store`
+
+for the osX users
+
+`git config --global credential.helper osxkeychain`
+
+For more [click](http://stackoverflow.com/questions/5343068/is-there-a-way-to-skip-password-typing-when-using-https-github)
+
+11. Add branch to the git repo short hand.
+
+`git push <repo> <branch> -u`
