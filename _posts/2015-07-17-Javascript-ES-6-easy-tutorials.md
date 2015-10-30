@@ -2,16 +2,14 @@
 layout: post
 date: "Fri Jul 17 09:47:28 2015"
 comments: true
-title: "Javascript conf bangaluru"
+title: "ES6 Javascript with examples"
+tags: [Javascript, es-6, es6, tutorial]
 ---
-
-
-- Css will-change
-- css animation API
+I heard longtime ago that new JavaScript is coming. There are lot of buzz around it. I was waiting to use it code but no browser supports it fully.
+Till then i kept waiting until people started to say ES-6 is old ES-7 is coming but i haven't learnt ES-6.
 
 
 transform: translateZ(0);
-
 
 ```javascript
   var animationPlayer = $0.animate([{
@@ -28,22 +26,12 @@ transform: translateZ(0);
   animationPlayer.onfinish(e);
 ```
 
-[joe](/joe8tbit)
-
-----
 ### React core concept.
 - for every dom element, there's a component.
 - no templates at runtime . only javasscrpt.
 - data flows only in the one direction. down the tree
 - conceptually, we never update or mutate do re-render
 
-
-
-- docker ,webpack, react, emberJs, tools
-
-- Goal for 2 days
-- set Atom to do more
-- flow, from nuclide
 
 ### ES-6 core concept with exmaples.
 I heard longtime ago that new JavaScript is coming. There are lot of buzz around it. I was waiting to use it code but no browser supports it fully.
@@ -115,6 +103,7 @@ var bob = {
 Note: we have already used let above
 
 example 1:
+
 ```javascript
 var x = 0;
 
@@ -337,5 +326,22 @@ let [ok,...all] = [1,2,3,4];
 
 console.log(ok,all); //1 [2, 3, 4]
 
+```
+
+- ES6 Modules [link](http://www.sitepoint.com/understanding-es6-modules/)
+Follow, the link for the complete Info on the modules.
+
+
+- Set, Map, WeakMap and WeakSet [link](http://www.es6fiddle.net/icgiz5z8/)
+
+
+```javascript
+
+
 
 ```
+
+The main differences to the Set object are:
+
+In contrast to Sets, WeakSets are collections of objects only and not of arbitrary values of any type.
+The WeakSet is weak: References to objects in the collection are held weakly. If there is no other reference to an object stored in the WeakSet, they can be garbage collected. That also means that there is no list of current objects stored in the collection. WeakSets are not enumerable.

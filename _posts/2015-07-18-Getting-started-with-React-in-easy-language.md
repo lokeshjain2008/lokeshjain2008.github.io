@@ -224,9 +224,6 @@ This means that, in a hierarchy of several components, a common component of the
 </p></pre></div><p></p>
 <h3 id="conclusion">Conclusion</h3>
 <p>Now that we have reviewed some React basics, take some time to check out the <a href="http://facebook.github.io/react/docs/top-level-api.html">React API</a> and read up a bit on <a href="http://facebook.github.io/react/docs/jsx-in-depth.html">JSX</a>.</p>
-<p>stay connect with our <a href="https://www.facebook.com/fourtyonestudio">facebook</a>, <a href"https:="" twitter.com="" 41studio"="">twitter</a> and <a href="https://www.linkedin.com/company/1323325?trk=vsrp_companies_res_name&amp;trkInfo=VSRPsearchId%3A3542812511436513564736%2CVSRPtargetId%3A1323325%2CVSRPcmpt%3Aprimary">linkedin</a></p>
-
-<p>if you have any question, please fill free to ask us using the comment box below</p>
 
 
-    </article>
+</article>
