@@ -11,7 +11,7 @@ There is service called `$resource` in the `ngResource` module.
 
 `$resource` is a great service when talking to `REST` servers. For the ROR developer is behave almost same the way
 `resources` work there.
-with the methods `edit`, `index`, `get` and `delete`.
+with the methods `update`, `index`, `new` and `delete`.
 
 
 The final output
