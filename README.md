@@ -10,6 +10,8 @@ I have tried to share and collect all the information related to
 - Ruby
 and 
 -Ruby on Rails
+
+
 tips and tricks and related topics that help to reduce development times.
 
 
