@@ -9,9 +9,9 @@ tags: [mistakes,jekyll,jekyll-plugin]
 
 ###Mistakes
 ---
-According to the jekyll-documentations we can include 'plugins' as 
+According to the jekyll-documentations we can include 'plugins' as
 {% highlight yaml %}
-	#_confing.yaml 
+	#_confing.yaml
 	gem: [plugin-name]
 
 {% endhighlight %}
@@ -21,26 +21,26 @@ Add this gem to Gemfile and install it.
 
 
 _Mistakes that i commited in the process_
-1. mistaken the gem with plugin. 
+1. mistaken the gem with plugin.
 
 ```yaml
 #_confing.yaml
-plugins: [plugin-name] 
+plugins: [plugin-name]
 ```
 2. put plugins in the `_plugins` directory.
 3. No plugin was workign as expected.
 
 ###Solutions
 ---
-Either follow the given step above but that is not suitable as almost every `jekyll-plugin` is 
+Either follow the given step above but that is not suitable as almost every `jekyll-plugin` is
 a module.
-the correct way is to 
+the correct way is to
+
 1. create `_plugins' directory.
 	`mkdir _plugins`
+
 2. in `_confing.yaml` remove all the keys related to plugins or gem.
+
 3. Just add the modules/files to the `_plugins` folder.
 
 This is the way to work with jekyll-plugins.
-
-
-

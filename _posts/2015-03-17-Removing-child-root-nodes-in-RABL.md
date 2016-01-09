@@ -5,7 +5,7 @@ comments: true
 title: Removing child root nodes in RABL
 ---
 
-#RABL is greate to create `JSON` output for the api porjects.
+RABL is a good add on to generate `JSON` output for the api projects.
 
 Here is the situation to conquer.
 
@@ -25,7 +25,7 @@ object @file
 attributes :id
 ```
 
-This will produce the output as 
+This will produce the output as
 
 ```json
 [
@@ -62,7 +62,7 @@ But we need the output something like this with out parent node for child nodes.
 ```
 There is solutions
 
-1. change is globally 
+1. change is globally
 
 ```ruby
 
@@ -75,12 +75,12 @@ end
 2. more control
 
 ```ruby
-#change this 
+#change this
 child :files do
       extends 'groups/_file'
     end
 
-#Into the code 
+#Into the code
 node :files do |group|
       group.files.map do |file|
         partial 'groups/_file', object: file, root: false
@@ -114,7 +114,3 @@ attributes :id,
 Finally here is some good read for the `eagerload` in rails.
 
 [rails4-preloading](http://blog.arkency.com/2013/12/rails4-preloading/)
-
-
-
-

@@ -1,4 +1,3 @@
-
 ---
 layout: post
 date: "Thu Nov 12 15:30:00 2015"
@@ -211,7 +210,3 @@ final output
 }());
 
 ```
-
-
-
-

@@ -5,10 +5,6 @@ comments: true
 title: "using redis as a database"
 ---
 
-
- <div class="post-content">
-  <h2 id="the-spike">The Spike</h2>
-
 <p>I was spiking on Redis recently.  I wanted to use the <a href="https://github.com/nateware/redis-objects">redis-objects gem</a> to simulate a shopping cart app even though the README specifically says</p>
 
 <blockquote>
@@ -168,4 +164,3 @@ Redis PL: 00:02.72
 
 ----
 - Note: copied from [link](http://squarism.com/2013/05/04/using-redis-as-a-database/)
-

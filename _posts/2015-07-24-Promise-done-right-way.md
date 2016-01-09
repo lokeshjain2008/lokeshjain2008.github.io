@@ -6,11 +6,7 @@ title: "Promise done right way"
 ---
 
 <div class="col-md-offset-1 col-md-10">
-
-
 <div class="post">
- 
-
      <p>Fellow JavaScripters, it's time to admit it: we have a problem with promises.</p>
 
 <p>No, not with promises themselves. Promises, as defined by the <a href="https://promisesaplus.com/">A+ spec</a>, are awesome.</p>

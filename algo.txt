@@ -1,0 +1,51 @@
+ Time complexity alogrithm is depend on
+First ceate a hypothetical macthine
+1. single processor
+2. 32 bit
+3. sequential execution
+4.  1 unit time for arithmatic and logical operation
+5.  1 Uinit Time for assignment and return
+
+
+
+Example :
+
+function (a+b){
+
+ return a+b; // the time complexity for this function is 2=> 1 for the a+b and 1 for the return statement.
+
+}
+
+Example 2.
+
+Sum of list.
+
+
+function (array, length of the array){
+
+ total = 0 ; // T1
+
+for i=0 to n-1    2T(n+1) n times + 1 for the false condition
+
+  total = total+Ai    // 2T for the n cycle so time taken is 2T(n)
+
+return total  ;   T1
+}
+
+So, total time taken is :: T1+ 2T(n+1)+2Tn+T1
+T is time unit
+so, Time taken is  =   (4n+4)T time
+so, this time is proportional to n
+so
+T-factor = n
+
+Asymptotic notation Big-O
+
+
+Like this
+
+Sum of matrix will be
+
+n2
+
+------> O(n2)
