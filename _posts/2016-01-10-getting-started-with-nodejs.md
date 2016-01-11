@@ -21,7 +21,7 @@ you will see Following output.
 
 ```bash
   Hello world
-```  
+```
 
 Note:
 Node.js is a wrapper around `v8 javascript engine` written in C. Node.js provides a hosting environment for the `V8` engine. For the `systme input and output` node uses `process`.
@@ -113,11 +113,11 @@ There are a few special REPL commands:
 
 Just for reference in `ruby`
 
--  __FILE__
--  __dir__
--  __method__
-_  __callee__
--  __LINE__
+-  __ FILE __
+-  __ dir __
+-  __ method __
+_  __ callee __
+-  __ LINE __
 
 #### `exports` and `module.exprots`
 
