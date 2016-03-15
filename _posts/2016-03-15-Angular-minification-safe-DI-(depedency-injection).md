@@ -3,9 +3,11 @@ layout: post
 date: "Tue Mar 15 11:49:27 2016"
 comments: true
 title: "Angular minification safe DI depedency injection"
+tags:
+  - angular
 ---
 
-# Angular minification safe DI using gulp plugin.
+Angular minification safe DI using gulp plugin.
 
 According to `angular`
 
