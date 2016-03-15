@@ -114,7 +114,7 @@ There are a few special REPL commands:
 Just for reference in `ruby`
 
 -  __ FILE __
--  __ dir __
+-  __ dir __ 
 -  __ method __
 _  __ callee __
 -  __ LINE __
