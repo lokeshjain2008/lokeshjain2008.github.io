@@ -10,7 +10,7 @@ github_username:  lokeshjain2008
 
 # Build settings
 markdown: redcarpet
-
+permalink: pretty
 disqus_shortname: lokeshjain2008
 
 
@@ -21,3 +21,6 @@ exclude: [Gemfile, Gemfile.lock, Rakefile]
 
 # you can change the post url behaviour using permalink
 # permalink: /:title
+
+gems:
+  - jekyll-sitemap

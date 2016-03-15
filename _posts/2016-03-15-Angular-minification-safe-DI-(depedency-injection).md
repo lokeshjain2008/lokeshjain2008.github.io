@@ -7,8 +7,9 @@ title: "Angular minification safe DI (depedency injection)"
 
 # Angular minification safe DI using gulp plugin.
 
-According to angular
-Since Angular infers the controller's dependencies from the names of arguments to the controller's constructor function, if you were to minify the JavaScript code for controllers, services and modules. all of its function arguments would be minified as well, and the dependency injector would not be able to identify services correctly.
+According to `angular`
+
+> Since Angular infers the controller's dependencies from the names of arguments to the controller's constructor function, if you were to minify the JavaScript code for controllers, services and modules. all of its function arguments would be minified as well, and the dependency injector would not be able to identify services correctly.
 
 We can overcome this problem by annotating the function with the names of the dependencies, provided as strings, which will not get minified. There are two ways to provide these injection annotations:
 
@@ -23,6 +24,7 @@ function publicPaymentCtrl($sce, $filter, $scope, $state, $stateParams, $window,
 }
 
 ```
+
 2nd method: Create a $inject property on the controller function which holds an array of strings.
 For example, same controller can be written as.
 
@@ -143,6 +145,9 @@ Resolve function in the Ui-router.
 });
 
 ```
+Note: To Avoid DI error in production. We should use `ng-strict-di` directive.
+This directive even gives a performance boot to `angular` apps.
+
 
 in this case we have to do it manually.
 
