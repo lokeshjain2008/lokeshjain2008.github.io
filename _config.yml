@@ -20,6 +20,8 @@ kramdown:
     # Use existing pygments syntax highlighting css
     css_class: 'highlight'
 
+future: true
+
 disqus_shortname: lokeshjain2008
 
 

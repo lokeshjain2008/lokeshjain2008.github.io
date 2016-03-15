@@ -9,4 +9,4 @@ tags:
 	- caching
 ---
 
-Angular has caching to make website more poerformant.
+Angular has caching to make website more performant.
