@@ -3,8 +3,8 @@ title: Web developer diary
 description: > # comment
  tutorials for the ruby, ruby on rails, ror and some web technologies that include javascript.
  web technologies that includes html, html5, jQuery, PHP, Python, Bootstrap css framework GAE etc.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://lokeshjain2008.github.io/" # the base hostname & protocol for your site
+baseurl: "/" # the subpath of your site, e.g. /blog/
+url: "https://lokeshjain2008.github.io/" # the base hostname & protocol for your site
 twitter_username: lokeshjain2008
 github_username:  lokeshjain2008
 
