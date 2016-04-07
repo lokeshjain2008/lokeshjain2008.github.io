@@ -19,11 +19,11 @@ The final output
 ```javascript
 
 (function () {
-  angular.rlmodule('rl.qtc.services.ProductCatalogResource', ['ngResource', 'rl.qtc.Config'])
+  angular.modules('rl.qtc.services.ProductCatalogResource', ['ngResource'])
     .factory('ProductCatalogResource', function ($resource, Config) {
 
       return $resource(
-        Config.gatewayBaseUrl + '/product-families/:id',
+        'productFamiliesUrl/:id',
         {bussinessId: '@businessId', cobrandId: '@cobrandId'},
         {
           query: {
@@ -50,11 +50,11 @@ staget final-1
 ```javascript
 
 (function () {
-	angular.rlmodule('rl.qtc.services.ProductCatalogResource', ['ngResource','rl.qtc.Config'])
+	angular.modules('rl.qtc.services.ProductCatalogResource', ['ngResource','rl.qtc.Config'])
 	.factory('ProductCatalogResource', function($resource, Config) {
 
 		return $resource(
-			Config.gatewayBaseUrl + '/product-families/:id',
+			'productFamiliesUrl/:id',
 			{},
 			{
         query:{
@@ -84,11 +84,11 @@ final -2
 ```javascript
 
 (function () {
-	angular.rlmodule('rl.qtc.services.ProductCatalogResource', ['ngResource','rl.qtc.Config'])
+	angular.modules('rl.qtc.services.ProductCatalogResource', ['ngResource','rl.qtc.Config'])
 	.factory('ProductCatalogResource', function($resource, Config) {
 
 		return $resource(
-			Config.gatewayBaseUrl + '/product-families',
+			'productFamiliesUrl',
 			{},
 			{
         query:{
@@ -102,7 +102,7 @@ final -2
 				getProductFamily: {
 					method: 'GET',
 					params: { bussinessId: '@businessId', cobrandId: '@cobrandId' },
-					url: Config.gatewayBaseUrl + '/product-families/:id'
+					url: 'productFamiliesUrl/:id'
 				}
 			}
 		);
@@ -122,11 +122,11 @@ the original
 ```javascript
 
 (function () {
-	angular.rlmodule('rl.qtc.services.ProductCatalogResource', ['ngResource','rl.qtc.Config'])
+	angular.modules('rl.qtc.services.ProductCatalogResource', ['ngResource','rl.qtc.Config'])
 	.factory('ProductCatalogResource', function($resource, Config) {
 
 		return $resource(
-			Config.gatewayBaseUrl + '/product-families',
+			'productFamiliesUrl',
 			{},
 			{
 				getFamilies: {
@@ -146,7 +146,7 @@ the original
 				getProductFamily: {
 					method: 'GET',
 					params: { bussinessId: '@businessId', cobrandId: '@cobrandId' },
-					url: Config.gatewayBaseUrl + '/product-families/:id'
+					url: 'productFamiliesUrl/:id'
 				}
 			}
 		);
@@ -166,12 +166,12 @@ get : needed an object in the response
 query : allows a array in the response.
 
 
+```javascript
 
-
-	angular.rlmodule('rl.qtc.services.budgetDraftResource', ['ngResource', 'rl.qtc.Config'])
+	angular.modules('rl.qtc.services.budgetDraftResource', ['ngResource'])
 	.factory('budgetDraftResource', function ($resource, Config) {
 		return $resource(
-			Config.gatewayBaseUrl + '/draft-budgets',
+			'/BudgetUrl',
 			{},
 			{
 				getByAcctId: {
@@ -191,7 +191,7 @@ query : allows a array in the response.
 		);
 	});
 
-
+```
 
 final output
 
@@ -200,13 +200,22 @@ final output
 
 
 (function () {
-  angular.rlmodule('rl.qtc.services.budgetDraftResource', ['ngResource', 'rl.qtc.Config'])
+  angular.modules('rl.qtc.services.budgetDraftResource', ['ngResource'])
     .factory('budgetDraftResource', function ($resource, Config) {
       return $resource(
-        Config.gatewayBaseUrl + '/draft-budgets/:draftBudgetId',
+        '/BudgetUrl/:draftBudgetId',
         {accountId: '@accountId'}
       );
     });
 }());
 
 ```
+
+See, how simple is to write a factory that make request to
+- Get a single entity using id
+- Query to get an array of data.
+- send query params like `?query=accountId`
+- delete an entity.
+
+
+chears! happy javascript coding.
