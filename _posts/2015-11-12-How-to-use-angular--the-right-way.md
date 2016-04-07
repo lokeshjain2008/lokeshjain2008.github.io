@@ -212,6 +212,7 @@ final output
 ```
 
 See, how simple is to write a factory that make request to
+
 - Get a single entity using id
 - Query to get an array of data.
 - send query params like `?query=accountId`
