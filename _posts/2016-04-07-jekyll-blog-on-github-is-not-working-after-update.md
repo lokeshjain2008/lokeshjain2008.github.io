@@ -3,10 +3,8 @@ layout: post
 date: "Thu Apr  7 17:30:12 2016"
 comments: true
 title: "jekyll blog on github is not working after update"
-tags:
-	- ruby
-	- jekyll
-	- jekyll not working
+tags: [ ruby, jekyll, jekyll not working]
+
 ---
 
 Jekyll blog on github is not after upate.
