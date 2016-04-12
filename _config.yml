@@ -33,6 +33,7 @@ exclude: [Gemfile, Gemfile.lock, Rakefile]
 gems:
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-gist
 
 # Exclude these files from your production _site
 exclude:
