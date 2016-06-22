@@ -8,10 +8,8 @@ title: ruby scope deep dive
       <div class="grid grid--cling">
         <!-- Article Headline -->
         <div class="colxs100 article__headline">
-          <a href="https://blog.codeship.com/a-deep-dive-into-ruby-scopes/" rel="bookmark" title="Permanent Link to A Deep Dive into Ruby Scopes">
             <h2>A Deep Dive into Ruby Scopes</h2>
             <span class="article__date">2016-03-16</span>
-          </a>
         </div>
         <!-- Article Overview -->
         <div class="article__overview">
@@ -154,7 +152,6 @@ betsy <span class="token operator">=</span> <span class="token constant">Boxcar<
 </span>betsy<span class="token punctuation">.</span>description
 <span class="token comment" spellcheck="true">#NoMethodError: undefined method `description' for #&lt;Boxcar:0x000000025e61c0&gt;</span><span class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <p>The scope of the methods defined are dependent on whether you assign it to the singleton instance of that object or let it be defined on instances from that object.</p>
-<p><span class="hs-cta-wrapper" id="hs-cta-wrapper-11903a5d-dfb4-42f2-9dea-9a60171225ca"><span class="hs-cta-node hs-cta-11903a5d-dfb4-42f2-9dea-9a60171225ca" id="hs-cta-11903a5d-dfb4-42f2-9dea-9a60171225ca" data-hs-drop="true" style="visibility: visible;"><a id="cta_button_1169977_534a2343-3efc-4eea-a807-8d3fe25bceaf" class="cta_button" href="http://resources.codeship.com/cs/c/?cta_guid=534a2343-3efc-4eea-a807-8d3fe25bceaf&amp;placement_guid=11903a5d-dfb4-42f2-9dea-9a60171225ca&amp;portal_id=1169977&amp;redirect_url=APefjpF7lpdeanMrRbkIhmwG9gDrd3TRkwXge0I1RJgwS7CIF2KmGbmbtd-dKAh29gj6WemRzBjGcZY110TKTt3RTIOIVKQFghR3gbqePs3Ip4mPdqaOrm_c8L7P7uwpwDrl7m5EKIX_erxECJCIwYuxTLIs3Vugbbh426tmiJnP1tkFf-xK0EI&amp;hsutk=&amp;canon=https%3A%2F%2Fblog.codeship.com%2Fa-deep-dive-into-ruby-scopes%2F&amp;__hsfp=1519502988" target="_blank" cta_dest_link="http://resources.codeship.com/ebooks/why-containers-and-docker-are-the-future"> <img id="hs-cta-img-11903a5d-dfb4-42f2-9dea-9a60171225ca" class="hs-cta-img " style="border-width: 0px; " mce_noresize="1" alt="New Call-to-action" src="https://cdn2.hubspot.net/hubfs/1169977/hub_generated/resized/ae229eae-a4e4-48de-ac95-939994f22dd9.png"> </a> </span> <script type="text/javascript"> hbspt.cta.load(1169977, '11903a5d-dfb4-42f2-9dea-9a60171225ca'); </script> </span></p>
 <h2>Singleton Instance</h2>
 <p>Saying “singleton instance” feels a bit repetitive to me, but it is important to specify so as not to confuse it with the Singleton Design Pattern or the <code>singleton_class</code> object which exists on most Ruby objects (which is not the singleton instance of the object it is on but is an extra singleton instance of its own).</p>
 <p>Ruby is designed where everything is an instance of the Object class and therefore is a singleton instance, meaning that it exists as its own individual self. Yes, this may seem confusing at first, but once you see every module, class, and object as their own singleton instance which may or may not create more singleton instances from their definitions, then things become clearer.</p>
@@ -346,3 +343,9 @@ office<span class="token punctuation">.</span>state <span class="token symbol">:
                   </summery>
       </div>
     </article>
+
+<div>
+	Note : copied from <a href="https://blog.codeship.com/a-deep-dive-into-ruby-scopes/" rel="bookmark">
+	codeship blog
+	</a>
+</div>
