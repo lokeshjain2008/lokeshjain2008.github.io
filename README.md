@@ -1,5 +1,14 @@
 #A web developer's diary
 ---
+## Installation and commands
+This is [Jekyll](https://jekyllrb.com/) website for the static websites.
+- Developement
+- Test the website `bundle exec jekyll serve`.
+- To create a new post i have coustom task.
+  `rake create post[<name>]`  
+
+
+
 I have tried to share and collect all the information related to 
 - Web technologies 
   - CSS

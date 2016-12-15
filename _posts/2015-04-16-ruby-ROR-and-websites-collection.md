@@ -22,6 +22,10 @@ amazing tutorial for the new rubist on the ruby...
 ### hosting, cloud editor, terminals
 - [cloud 9](c9.io)
 - [terminal](https://www.terminal.com/)
+- [hyper terminal for all the platform](https://hyper.is/)
+- [Package manager for windows Choco](https://chocolatey.org/)
+- [Static website and more Now&Next](https://zeit.co/now#)
+
 - [koding](https://koding.com/)
 - [intercityup](https://intercityup.com/) Rails hosting.
 - [cloud66](http://www.cloud66.com/) Script free Ops for Developers(Hosting and Server)
