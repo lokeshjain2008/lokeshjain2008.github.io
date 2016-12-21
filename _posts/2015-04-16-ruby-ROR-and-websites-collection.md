@@ -25,7 +25,7 @@ amazing tutorial for the new rubist on the ruby...
 - [hyper terminal for all the platform](https://hyper.is/)
 - [Package manager for windows Choco](https://chocolatey.org/)
 - [Static website and more Now&Next](https://zeit.co/now#)
-
+- [Static website hosting surge.sh](https://surge.sh/)
 - [koding](https://koding.com/)
 - [intercityup](https://intercityup.com/) Rails hosting.
 - [cloud66](http://www.cloud66.com/) Script free Ops for Developers(Hosting and Server)
