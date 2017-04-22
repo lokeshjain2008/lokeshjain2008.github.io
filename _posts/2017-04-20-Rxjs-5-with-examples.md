@@ -1,8 +1,8 @@
 ---
 layout: post
-date: Thu Apr 20 09:02:16 2017
+date: "Thu Apr 20 09:02:16 2017"
 comments: true
-title: Rxjs 5 with examples
+title: "Rxjs 5 with examples"
 ---
 
 #RxJS 5 Operators By Example
@@ -10,8 +10,6 @@ title: Rxjs 5 with examples
 **UPDATE: I have moved the contents of this gist plus more to [https://github.com/btroncone/learn-rxjs](https://github.com/btroncone/learn-rxjs) and [http://www.learnrxjs.io](http://www.learnrxjs.io). For expanded examples, explanations, and resources, please check out this new location!**
 
 A complete list of RxJS 5 operators with easy to understand explanations and runnable examples. 
-
-**[Chinese Version](https://gist.github.com/DrakeLeung/ecbcedab8534d4486a888ef777a76140)** by: [@DrakeLeung](https://github.com/DrakeLeung)
 
 ### Table of Contents
 * [buffer](#buffer)
