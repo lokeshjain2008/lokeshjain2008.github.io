@@ -18,6 +18,7 @@ Steps to achieve this.
 6. go the website `DNS` setting and update `A` record with the new IP.
 7. Replace the content.
 
+wget -r --user="user@login" --password="<password>" ftp://server.com/
 
-
-
+There are far better options like 
+1. Wordpress plugin like - duplicator  and more.

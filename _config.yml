@@ -30,7 +30,7 @@ exclude: [Gemfile, Gemfile.lock, Rakefile]
 # you can change the post url behaviour using permalink
 # permalink: /:title
 
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-gist
